@@ -292,19 +292,17 @@ $(window).on("load resize",function(e){
 		$("ul.tabs").scroller("reset");
 
 
-if ( $( ".scroller-content" ).length ) {
+	if ( $( ".scroller-content" ).length ) {
 
 		if ($('.scroller-content')[0].scrollWidth >  $('.scroller-content').innerWidth()) {
 			$(".scroller-handle").css('background','#c7c7c7');
 			$(".scroller-horizontal .scroller-bar").css('height','30px','bottom','0');
 			$("ul.tabs").css('min-height','110px');
-			$("ul.tabs li .active:after").css('top','8px');
+			$("ul.tabs li a.active:after").css('top','8px');
 		}
 		else {
-			$(".scroller-handle").css('background','#eaeaea');
-			$(".scroller-horizontal .scroller-bar").css('height','3px','bottom','30px');
-			$("ul.tabs li .active:after").css('top','12px');
-			$("ul.tabs").css('min-height','62px');
+			$("ul.tabs").scroller("destroy");
+			$("ul.tabs").css('min-height','0');
 		}
 }
 
