@@ -296,8 +296,8 @@ if ( $( ".scroller-content" ).length ) {
 
 		if ($('.scroller-content')[0].scrollWidth >  $('.scroller-content').innerWidth()) {
 			$(".scroller-handle").css('background','#c7c7c7');
-			$(".scroller-horizontal .scroller-bar").css('height','20px','bottom','0');
-			$("ul.tabs").css('min-height','90px');
+			$(".scroller-horizontal .scroller-bar").css('height','30px','bottom','0');
+			$("ul.tabs").css('min-height','110px');
 			$("ul.tabs li .active:after").css('top','8px');
 		}
 		else {

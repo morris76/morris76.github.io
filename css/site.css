@@ -1677,8 +1677,9 @@ nav {
 
 @media (max-width: 990px) {
   #nav-utility {
-    padding: 20px 0;
-    text-align: center; } }
+    padding: 0 0 20px 0;
+    text-align: center;
+    background: #ebebeb; } }
 
 #nav-wrap > li, #nav-utility li {
   display: inline;
@@ -1697,7 +1698,38 @@ nav {
     border: 0 none;
     display: inline-block;
     margin: 0;
-    width: 45%; } }
+    width: 45%;
+    border-bottom: 1px solid #e1e2e2; }
+    #nav-utility > li:nth-child(2n) {
+      border-left: 1px solid #e1e2e2; }
+    #nav-utility > li:nth-child(5) {
+      border: 0 none;
+      padding-top: 1em; }
+      #nav-utility > li:nth-child(5) a:after {
+        color: #1f2122;
+        content: "SEARCH";
+        font-size: 15px;
+        font-weight: 600;
+        padding-left: 10px; } }
+
+#nav-utility {
+  top: -62px;
+  right: 5px; }
+
+#nav-utility li a {
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  padding: 2px 12px;
+  text-transform: uppercase; }
+  @media (max-width: 990px) {
+    #nav-utility li a {
+      color: #1f2122;
+      font-size: 15px;
+      font-weight: 600;
+      padding: 12px;
+      display: inline-block; } }
 
 #nav-wrap > li:hover .mega-dropdown {
   height: auto;
@@ -1807,25 +1839,6 @@ nav {
     left: -25px;
     position: absolute;
     width: 1px; }
-
-#nav-utility {
-  top: -62px;
-  right: 5px; }
-
-#nav-utility li a {
-  color: #FFFFFF;
-  font-size: 12px;
-  font-weight: 500;
-  letter-spacing: 0.03em;
-  padding: 2px 12px;
-  text-transform: uppercase; }
-  @media (max-width: 990px) {
-    #nav-utility li a {
-      color: #4F79A0;
-      font-size: 15px;
-      font-weight: 600;
-      padding: 10px 10px;
-      display: inline-block; } }
 
 .menu-icons:before {
   color: #C4DDF4;
@@ -3411,6 +3424,21 @@ noscript {
   border-radius: 10px;
   cursor: pointer; }
 
+.scroller-handle:after {
+  color: rgba(255, 255, 255, 0.5);
+  content: "|||";
+  display: block;
+  font-size: 11px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 6px;
+  margin: 0 auto;
+  position: absolute;
+  text-align: center;
+  line-height: 1em;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3); }
+
 .scroller-horizontal .scroller-content {
   overflow: auto;
   overflow-x: auto;
@@ -3426,7 +3454,7 @@ noscript {
 
 .scroller-horizontal .scroller-handle {
   width: 20px;
-  height: 20px;
+  height: 30px;
   top: auto;
   right: auto;
   bottom: 0px; }

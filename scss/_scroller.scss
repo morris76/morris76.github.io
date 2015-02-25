@@ -77,6 +77,21 @@
 	border-radius: 10px;
   cursor: pointer;
 }
+.scroller-handle:after {
+    color: rgba(255, 255, 255, 0.5);
+    content: "|||";
+    display: block;
+    font-size: 11px;
+    left: 0;
+    right: 0;
+    bottom:0;
+    top: 6px;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    line-height: 1em;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+}
 .scroller-horizontal .scroller-content {
   overflow: auto;
   overflow-x: auto;
@@ -92,7 +107,7 @@
 }
 .scroller-horizontal .scroller-handle {
   width: 20px;
-  height: 20px;
+  height: 30px;
   top: auto;
   right: auto;
   bottom: 0px;
