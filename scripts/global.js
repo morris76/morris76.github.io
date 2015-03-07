@@ -297,7 +297,6 @@ $(window).on("load resize",function(e){
 		if ($('.scroller-content')[0].scrollWidth >  $('.scroller-content').innerWidth()) {
 			$(".scroller-handle").css('background','#c7c7c7');
 			$(".scroller-horizontal .scroller-bar").css('height','30px','bottom','0');
-			$(".scroller-content").css('padding-bottom','4px');
 			$("ul.tabs").css('min-height','110px');
 			$("ul.tabs li a.active:after").css('top','8px');
 		}
