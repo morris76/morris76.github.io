@@ -454,6 +454,166 @@
     width: 47%;
 }
 }
+
+
+@media only screen and (max-width: 990px) {
+    
+[class*="t-col-"] {
+	position: relative;
+	float: left;
+	margin-left: 2.8571%;
+	min-height: 1px;
+}
+.t-row {
+	*zoom: 1;
+}
+.t-row:before, .t-row:after {
+	display: table;
+	content: " ";
+}
+.t-row:after {
+	clear: both;
+}
+
+.t-row .row {
+	*zoom: normal;
+}
+.t-row .row:before, .t-row .row:after {
+	content: none;
+}
+[class*="t-col-"]:first-child {
+	margin-left: 0;
+}
+.t-row .row [class*="t-col-"]:first-child {
+	margin-left: 2.8571%;
+}
+.row:first-child [class*="t-col-"]:first-child {
+	margin-left: 0;
+}
+.t-col-1 {
+	width: 5.7142%;
+}
+.t-col-2 {
+	width: 14.2857%;
+}
+.t-col-3 {
+	width: 22.8571%;
+}
+.t-col-4 {
+	width: 31.4285%;
+}
+.t-col-5 {
+	width: 40%;
+}
+.t-col-6 {
+	width: 48.5714%;
+}
+.t-col-7 {
+	width: 57.1428%;
+}
+.t-col-8 {
+	width: 65.7142%;
+}
+.t-col-9 {
+	width: 74.2857%;
+}
+.t-col-10 {
+	width: 82.8571%;
+}
+.t-col-11 {
+	width: 91.4285%;
+}
+.t-col-12 {
+	width: 100%;
+}
+.t-offset-1 {
+	margin-left: 11.4286%;
+}
+.t-offset-2 {
+	margin-left: 20%;
+}
+.t-offset-3 {
+	margin-left: 28.5714%;
+}
+.t-offset-4 {
+	margin-left: 37.1429%;
+}
+.t-offset-5 {
+	margin-left: 45.7143%;
+}
+.t-offset-6 {
+	margin-left: 54.2857%;
+}
+.t-offset-7 {
+	margin-left: 62.8571%;
+}
+.t-offset-8 {
+	margin-left: 71.4286%;
+}
+.t-offset-9 {
+	margin-left: 80%;
+}
+.t-offset-10 {
+	margin-left: 88.5714%;
+}
+.t-offset-1:first-child {
+	margin-left: 8.5714%;
+}
+.t-offset-2:first-child {
+	margin-left: 17.1429%;
+}
+.t-offset-3:first-child {
+	margin-left: 25.7143%;
+}
+.t-offset-4:first-child {
+	margin-left: 34.2857%;
+}
+.t-offset-5:first-child {
+	margin-left: 42.8571%;
+}
+.t-offset-6:first-child {
+	margin-left: 51.4286%;
+}
+.t-offset-7:first-child {
+	margin-left: 60%;
+}
+.t-offset-8:first-child {
+	margin-left: 68.5714%;
+}
+.t-offset-9:first-child {
+	margin-left: 77.1429%;
+}
+.t-offset-10:first-child {
+	margin-left: 85.7143%;
+}
+.t-offset-11:first-child {
+	margin-left: 94.2857%;
+}
+[class*="t-left"] {
+	margin-right: 2.8571%;
+	margin-left: 0;
+}
+[class*="t-right"] {
+	float: right;
+	margin-left: 2.8571% !important;
+}
+.hide-t-col {
+	display: none;
+}
+.hide-t-col:first-child + [class*="t-col-"] {
+	margin-left: 0;
+}
+.hide-t-col:first-child + .hide-t-col + [class*="t-col-"] {
+	margin-left: 0;
+}
+[class*="t-col-"].t-center {
+	display: block;
+	float: none;
+	margin-right: auto;
+	margin-left: auto !important;
+}
+}
+
 @media only screen and (max-width: 767px) {
     
 /*
