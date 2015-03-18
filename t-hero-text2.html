@@ -15,7 +15,6 @@
 	<link rel="stylesheet" href="css/site.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 
-	<script src="scripts/modernizr-2.0.6.min.js"></script>
 	<script src="//use.typekit.net/tba7jib.js"></script>
 	<script>try{Typekit.load();}catch(e){}</script>
 	
@@ -27,7 +26,9 @@
 		var _gaq = _gaq || [];
 		_gaq.push(['_setAccount', 'UA-25950326-1']);
 		_gaq.push(['_setSiteSpeedSampleRate', 100]);
-		_gaq.push(['_trackPageview']);
+
+		_gaq.push(['_trackPageview', location.pathname + location.search + location.hash]);
+		//_gaq.push(['_trackPageview']);
 		(function() {
 		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
 		//ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';   
@@ -1203,7 +1204,8 @@ Prospective applicants are advised to attend an information session. Please chec
 </style>
 
 
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
 <script type="text/javascript" src="scripts/global.js"></script>
 <script type="text/javascript" src="scripts/stupidtable.min.js"></script>
 <script type="text/javascript" src="scripts/scrollReveal.min.js"></script>
