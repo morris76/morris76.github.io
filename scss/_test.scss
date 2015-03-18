@@ -417,6 +417,16 @@ header.fixed {
 		height: 0px;
 		width: 100%;
 		}
+	#header-image-small {
+		height:460px;
+		
+		&:before {
+			height:460px;}
+		
+		#header-image-content {
+			height:460px;}
+
+		}
 
 	header h1:after {
 		@media #{$breakpoint-menu} {
@@ -1761,6 +1771,8 @@ blockquote {
 .text-small {display:inline-block;font-size:83%;line-height:1.5em;}
 .image-main {margin:30px 0;}
 .margin-small {margin-bottom:1em;}
+.margin-medium {margin-bottom:2em;}
+.margin-large {margin-bottom:3em;}
 .margin-halfgap {margin-top: -1.065em;}
 .button-border {
     border: 1px solid $color-red !important;
@@ -1837,17 +1849,17 @@ h3 + p {margin-top:-0.9em;}
 .toggle {
 	 margin-bottom: 12px;}
 .toggle .image:after {
-    content:"";
+    content:"";
 	font-family:fontawesome;
 	display:inline-block;
-	color:#BBCEDD;font-size: 14px;cursor: pointer;}
+	color:#c4634b;font-size: 14px;cursor: pointer;}
 .toggle .text {
     margin-left : 10px;cursor: pointer;font-weight: 500;color:#4F79A0;}
 .toggle.expanded .image:after {
-    content:"";
+    content:"";
 	font-family:fontawesome;
 	display:inline-block;
-	color:#BBCEDD;}
+	color:#c4634b;}
 .no-margin {margin:0 !important}
 .no-padding {padding:0 !important;}
 
