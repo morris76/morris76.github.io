@@ -1895,17 +1895,24 @@ noscript {
 
 .homepage-spotlight-box a img {
 	margin: 0;
-	border-top: 3px solid #e68e78;
+	border: 3px solid #93412d;
 	left: 10%;
 	margin: 20px 0;
 	width: 80%;
+
+	@media #{$breakpoint-menu} {
+		width:40%;left:0;margin:-20px 0 0;}
 
 	@media #{$breakpoint-tablet} {
 		display:none;}
 	}
 
 .homepage-spotlight-box p {
-    margin: 0.5em 0;clear:both;}
+    margin: 0.5em 0;clear:both;
+
+	@media #{$breakpoint-menu} {
+		clear:none;}
+	}
 
 .homepage-spotlight-box .button {
     background:#93412d;
