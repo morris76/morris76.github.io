@@ -1272,29 +1272,31 @@ ul.nav-filter {
 	padding:0;
 	display:inline-block;
 	width: 100%;
+
 	li {
-	display:inline-block;
+		display:inline-block;
 
 		&.disabled a {
 			font-style:italic;
-			color:#87898C;
-			}
-		&.active a{
-		color:#C4634B;
-		}
+			color:#87898C;}
+		&.active a {
+			color:#C4634B;}
+
+		input {
+			margin: 15px 20px 15px 0;}
 
 		a {
-		color:$color-text-light;
-		padding:20px;
-		display:inline-block;
-		border:0;
+			color:$color-text-light;
+			padding:20px;
+			display:inline-block;
+			border:0;
 
-		@media #{$breakpoint-menu} {
-		padding:5px 20px 5px 0;}
+			@media #{$breakpoint-menu} {
+				padding:15px 20px 15px 0;}
+			}
 
-		&:first-child {
+		&:first-child a {
 			padding-left:0;}
-		}
 
 	}
 
