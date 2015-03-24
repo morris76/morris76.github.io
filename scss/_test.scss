@@ -1384,6 +1384,9 @@ ul.tabs {
 				top:15px;
 				}
 			}
+		.active-scroll:after{
+			top:10px;}
+
 			
 		@media #{$breakpoint-menu} {
 			display:inline-block;

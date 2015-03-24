@@ -304,11 +304,12 @@ $(window).on("load resize",function(e){
 			$(".scroller-handle").css('background','#c7c7c7');
 			$(".scroller-horizontal .scroller-bar").css('height','30px','bottom','0');
 			$("ul.tabs").css('min-height','110px');
-			$("ul.tabs li a.active:after").css('top','8px');
+			$("ul.tabs li a").addClass("active-scroll");
 		}
 		else {
 			$("ul.tabs").scroller("destroy");
 			$("ul.tabs").css('min-height','0');
+			$("ul.tabs li a").removeClass("active-scroll");
 		}
 }
 
