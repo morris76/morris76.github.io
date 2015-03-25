@@ -1276,6 +1276,10 @@ ul.nav-filter {
 	li {
 		display:inline-block;
 
+		
+		@media #{$breakpoint-tablet} {
+			display:block;}
+
 		&.disabled a {
 			font-style:italic;
 			color:#87898C;}
