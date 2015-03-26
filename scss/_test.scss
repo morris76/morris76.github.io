@@ -1287,7 +1287,11 @@ ul.nav-filter {
 			color:#C4634B;}
 
 		input {
-			margin: 15px 20px 15px 0;}
+			margin: 15px 20px;
+
+			@media #{$breakpoint-tablet} {
+				margin:15px 20px 15px 0;}
+			}
 
 		a {
 			color:$color-text-light;
