@@ -1300,7 +1300,8 @@ ul.nav-filter {
 			border:0;
 
 			@media #{$breakpoint-menu} {
-				padding:15px 20px 15px 0;}
+				padding:15px 20px 15px 0;
+				display:block;}
 			}
 
 		&:first-child a {
@@ -1364,6 +1365,10 @@ ul.tabs {
 
 			&:hover {
 				color:#26292c;
+
+				@media #{$breakpoint-menu} {
+					color: #A3A3A3;
+					}
 				}
 
 			
