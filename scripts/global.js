@@ -134,7 +134,14 @@ _gaq.push(['_trackEvent', 'Breadcrumb', 'click', $(this).attr('href')]);
 		
 		$('#homepage-bar-links a').mousedown(function(e){
 _gaq.push(['_trackEvent', 'Homepage-Utility-Bar', 'click', $(this).attr('href')]);
-		});		
+		});	
+		
+		$('#bottom-bar-links ul li a').mousedown(function(e){
+_gaq.push(['_trackEvent', 'Bottom-Bar-Link', 'click', $(this).attr('href')]);
+		});			
+
+
+		
     }
 
 
