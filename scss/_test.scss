@@ -1293,10 +1293,10 @@ ul.nav-filter {
 			color:#C4634B;}
 
 		input {
-			margin: 15px 20px;
+			margin: 20px;
 
 			@media #{$breakpoint-tablet} {
-				margin:15px 20px 15px 0;}
+				margin:20px 20px 20px 0;}
 			}
 
 		a {
@@ -1470,6 +1470,7 @@ ul.tabs-red {
 		vertical-align: top;
 		width: 25%;
 		position: relative;
+		white-space: nowrap;
 
 
 		@media #{$breakpoint-columns} {
@@ -1490,12 +1491,14 @@ ul.tabs-red {
 			font-size: 1.1em;
 			border: 1px solid #DDDDDD;
 			margin: 0;
-			padding: 0.7em 1em;
+			padding: 0.7em 2em 0.7em 1em;
 			box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
+			overflow: hidden;
+			text-overflow: ellipsis;
 				
 			@media #{$breakpoint-columns} {
 				margin: 0;
-				padding: 0.7em 1em;}
+				padding: 0.7em 2em 0.7em 1em;}
 
 			&:after {
 				color:$color-text;
