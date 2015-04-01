@@ -140,6 +140,10 @@ _gaq.push(['_trackEvent', 'Homepage-Utility-Bar', 'click', $(this).attr('href')]
 _gaq.push(['_trackEvent', 'Bottom-Bar-Link', 'click', $(this).attr('href')]);
 		});			
 
+		
+		$('ul.nav-filter li a').mousedown(function(e){
+_gaq.push(['_trackEvent', 'Nav-Filter', 'click', $(this).attr('href')]);
+		});		
 
 		
     }
