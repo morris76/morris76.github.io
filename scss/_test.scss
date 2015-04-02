@@ -1989,34 +1989,42 @@ noscript {
 	color: rgba(255, 255, 255, 0.70);
 	padding: 20px;
 	margin-bottom: 0.5em;
-	margin-top: 0.5em; transition:background-color 0.5s ease-in;
+	margin-top: 4em; 
+	transition:background-color 0.5s ease-in;
 
 	&:hover {background:#93412d;}
 	
     	@media #{$breakpoint-menu} {
-		box-shadow:none;text-align:left;background:none;margin-left:0;transition: none;
+		margin-top: 0.5em; 
+		box-shadow:none;
+		text-align:left;
+		background:none;
+		margin-left:0;
+		transition: none;
 		
-		&:hover {background:none;}
+		&:hover {
+			background:none;}
 		}
 
     	@media #{$breakpoint-tablet} {
-		box-shadow:none;text-align:center;background:none;}
-	}
+		text-align:center;}
+		}
 
 .homepage-spotlight-box span {
     color: #ffffff;
     display: block;
-    font-size: 1.2em;}
+    font-size: 1.2em;
+    font-weight: 600;}
 
 .homepage-spotlight-box a img {
 	margin: 0;
-	border: 0px solid #93412d;
+	border: 7px solid rgba(255, 255, 255, 0.8);
 	left: 10%;
-	margin: 20px 0;
+	margin:  -4em 0 2em;
 	width: 80%;
 
 	@media #{$breakpoint-menu} {
-		width:40%;left:0;margin:-20px 0 0;}
+		width:40%;left:0;margin:0 0 0;}
 
 	@media #{$breakpoint-tablet} {
 		display:none;}
