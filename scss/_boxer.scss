@@ -331,11 +331,20 @@
   right: 0;
   background: #111111;
   border-radius: 0;
+
+
+  text-indent: 0;
+  overflow: visible;
+  color: white;
+  padding: 7px 4em 0 6em;
+  font-size: 16px;
+
+
 }
 #boxer.mobile .boxer-close:before,
 #boxer.mobile .boxer-close:hover:before {
   color: #cccccc;
-  font-size: 28px;
+	font-size: 16px;
   font-weight: 700;
   line-height: 40px;
 }

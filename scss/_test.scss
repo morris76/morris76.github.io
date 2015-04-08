@@ -1006,6 +1006,13 @@ section#body-wrapper.active:after {
 	padding: 3em 1em;
 	font-size:1em;
 	line-height:1.925em;
+	
+	@media #{$breakpoint-menu} {
+		padding:1.5em;
+		margin: 0 1em}
+	@media #{$breakpoint-tablet} {
+		padding:1.5em;
+		}
 
 	h1 {
 		//padding-bottom:0.4em;
@@ -1035,7 +1042,8 @@ section#body-wrapper.active:after {
 	
 	@media #{$breakpoint-menu} {
 		padding:2em;
-		margin-bottom:0;}
+		margin-bottom:0;
+		margin-bottom:1em;}
 	}
 
 .bread-list {
@@ -1874,6 +1882,9 @@ blockquote {
 .margin-small {margin-bottom:1em;}
 .margin-medium {margin-bottom:2em;}
 .margin-large {margin-bottom:3em;}
+.padding-small {padding-bottom:1em;}
+.padding-medium {padding-bottom:2em;}
+.padding-large {padding-bottom:3em;}
 .margin-halfgap {margin-top: -1.065em;}
 .button-border {
     border: 1px solid $color-red !important;
