@@ -83,16 +83,20 @@ jQuery(document).ready(function($){
       // listen to clicks
       $('a[href]').click(function(){
         if (this.href.indexOf('mailto:') === 0) {
-_gaq.push(['_trackPageview', '/mailtos/' + $(this).attr("href")]);
+//_gaq.push(['_trackPageview', '/mailtos/' + $(this).attr("href")]);
+_gaq.push(['_trackEvent', 'mailto', 'click', $(this).attr('href')]);
         }
         else if (this.href.match(/\.(pdf|doc|zip|ppt|jpg|gif|exe|xls|docx)$/)) {
-_gaq.push(['_trackPageview', '/downloads/' + $(this).attr("href")]);
+//_gaq.push(['_trackPageview', '/downloads/' + $(this).attr("href")]);
+_gaq.push(['_trackEvent', 'downloads', 'click', $(this).attr('href')]);
         }
         else if (this.href.match(/\.(pdf)/)) {
-_gaq.push(['_trackPageview', '/downloads/' + $(this).attr("href")]);
+//_gaq.push(['_trackPageview', '/downloads/' + $(this).attr("href")]);
+_gaq.push(['_trackEvent', 'downloads', 'click', $(this).attr('href')]);
         }
         else if (!this.href.match(document.domain)) {
-_gaq.push(['_trackPageview', '/external/' + $(this).attr("href")]);
+//_gaq.push(['_trackPageview', '/external/' + $(this).attr("href")]);
+_gaq.push(['_trackEvent', 'external', 'click', $(this).attr('href')]);
         }
       });
 
@@ -143,8 +147,13 @@ _gaq.push(['_trackEvent', 'Bottom-Bar-Link', 'click', $(this).attr('href')]);
 		
 		$('ul.nav-filter li a').mousedown(function(e){
 _gaq.push(['_trackEvent', 'Nav-Filter', 'click', $(this).attr('href')]);
-		});		
-
+		});	
+		
+		$('#bar-links a').mousedown(function(e){
+_gaq.push(['_trackEvent', 'Homepage-Spotlight', 'click', $(this).attr('href')]);
+		});	
+		
+	
 		
     }
 

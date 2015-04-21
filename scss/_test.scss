@@ -1662,16 +1662,22 @@ ul.list-inline {
 	li {display:inline-block;}
 	}
 ul.list-2-col {
+	display:inline-block;
+	width:100%;
+
 	li {width:47%;float:left;
 		
 		@media #{$breakpoint-menu} {
-			width:100%;
-			}
+			width:100%;}
 		}
 	}
 ul.list-3-col {
+	display:inline-block;
+	width:100%;
+
 	li {width:31%;float:left;}
 	}
+
 ul.list-button {
     padding: 0;
     li {
@@ -2054,7 +2060,7 @@ noscript {
     color: #fff;}
 
 #header-image-content {
-	padding: 10em 0 6em; 
+	padding: 11em 0 7em; 
 	margin:0 auto;
 	max-width: 64em;
 	display:block;
@@ -2067,11 +2073,11 @@ noscript {
 	color: #fff;
 	text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
 	position: relative;
-	font-weight: 600;
+	//font-weight: 600;
 	padding-bottom: 1em;
 	display:inline-block;
 	font-style: italic;
-	font-size: 3em;
+	//font-size: 3em;
 	
 	
     	@media #{$breakpoint-menu} {
