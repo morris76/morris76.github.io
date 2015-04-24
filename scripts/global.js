@@ -38,7 +38,7 @@
 
 
 /****************** Google Translate ***************/
-function doTranslate(){document.getElementById("google_translate_element").innerHTML="Please wait";var e=document.createElement("script");_gaq.push(['_trackPageview', '/translate/' + location.pathname]);e.type="text/javascript";e.src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";document.body.appendChild(e)}function googleTranslateElementInit(){document.getElementById("google_translate_element").innerHTML="";new google.translate.TranslateElement({pageLanguage:"en"},"google_translate_element")}$(function(){$(":input[title]").each(function(){var e=$(this);if(e.val()===""){e.val(e.attr("title"))}e.focus(function(){if(e.val()===e.attr("title")){e.val("")}});e.blur(function(){if(e.val()===""){e.val(e.attr("title"))}})})});
+//function doTranslate(){document.getElementById("google_translate_element").innerHTML="Please wait";var e=document.createElement("script");_gaq.push(['_trackPageview', '/translate/' + location.pathname]);e.type="text/javascript";e.src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";document.body.appendChild(e)}function googleTranslateElementInit(){document.getElementById("google_translate_element").innerHTML="";new google.translate.TranslateElement({pageLanguage:"en"},"google_translate_element")}$(function(){$(":input[title]").each(function(){var e=$(this);if(e.val()===""){e.val(e.attr("title"))}e.focus(function(){if(e.val()===e.attr("title")){e.val("")}});e.blur(function(){if(e.val()===""){e.val(e.attr("title"))}})})});
 
 
 
