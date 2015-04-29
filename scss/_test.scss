@@ -36,7 +36,7 @@ $header-image-small-height:	420px;
 }
 
 
-.ie8 #header-image-small:before{background:url('http://www.ct.edu/files/images/bg-header-image-small-ie.png') repeat-x;}
+.ie8 #header-image-small:before{background:url('http://img.ctboardofregents.netdna-cdn.com/files/images/bg-header-image-small-ie.png') repeat-x;}
 
 .ie9 #header-image:before, .ie9 #header-image-small:before {background:rgba(44, 56, 67, 0.4);}
 
@@ -301,7 +301,7 @@ header {
 	border-top: 40px solid #4F7FAB;
 	height: 136px;
 	transition:all 0.3s ease-in-out 0s;
-	position:absolute;top:0;
+	position:fixed;top:0;
 	z-index: 99;
 	box-shadow:0 0 4px rgba(0, 0, 0, 0.3);
 
@@ -309,6 +309,7 @@ header {
 		background: #4F7FAB;
 		border:0;
 		height:$menu-mobile-height;
+		position:absolute;
 	}
 }
 
@@ -363,7 +364,7 @@ header h1 {
 }
 
 header h1 .logo-connscu {
-	background: url("http://www.ct.edu/files/images/logo-connscu-website.png") no-repeat scroll;
+	background: url("http://img.ctboardofregents.netdna-cdn.com/files/images/logo-connscu-website.png") no-repeat scroll;
 	box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
 	height: 148px;
 	overflow: hidden;
@@ -375,7 +376,7 @@ header h1 .logo-connscu {
 	width: 229px;
 	z-index: 999;
 	background-position: 0 0;
-	transition: all 0.3s ease-in-out 0s;
+	transition: all 0.5s ease-in-out 0s;
 
 	@media #{$breakpoint-menu} {
 		background-position: -64px -15px;
@@ -390,7 +391,8 @@ header h1 .logo-connscu {
 
 header.fixed {
 	position:fixed;
-	background:#F9F9F9;
+	// old background color - background:#F9F9F9;
+	background:#4f7fab;
 	border-bottom:0;
 	border-top:0;
 	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.30);
@@ -413,6 +415,7 @@ header.fixed {
 		left: 85px;
 		margin: 0px;
 		position: absolute;
+		color: rgba(255, 255, 255, 0.75);
 
 		@media #{$breakpoint-menu} {
 			
@@ -443,6 +446,16 @@ header.fixed {
 
 	&.menu-visible {
 		height:370px;
+		
+		//Change font color for dark background
+		#nav-wrap > li > a { 
+			color: #1f2122;}
+		h1:after {
+			color: #1f2122;}
+		
+		#nav-wrap > li.selected > a { 
+			color:#c4634b;}
+		//end change font color
 
 		@media #{$breakpoint-menu} {
 			height:90px;
@@ -450,10 +463,11 @@ header.fixed {
 	}
 	
 	#nav-wrap > li > a { 
-		color: #1F2122;
+		color: #FFF;
 		}
 	#nav-wrap > li.selected > a { 
-		color: #c4634b;
+		// old color - color: #c4634b;
+		color:#F5DED8;
 		}
 }
 
@@ -484,7 +498,7 @@ header.fixed {
 		}
 
 	header h1 .logo-connscu {
-		background: url("http://www.ct.edu/files/images/logo-morterboard.png") no-repeat scroll;
+		background: url("http://img.ctboardofregents.netdna-cdn.com/files/images/logo-morterboard.png") no-repeat scroll;
 		background-size:78px 68px;
 		background-position: -4px -3px;
 		box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.25);
@@ -1561,7 +1575,7 @@ tr {
 }
 td, th {
     background: none repeat scroll 0 0 #F9F9F9;
-    padding: 10px;
+    padding: 5px 10px;
 }
 thead {
     background: none repeat scroll 0 0 #CCCCCC;
@@ -1851,7 +1865,7 @@ hr.icon:after {
 
 .top-align-p {margin-top:2em;}
 
-.bg-pattern {background:url("http://www.ct.edu/files/images/bg-wave.png") repeat scroll 0 0 rgba(0, 0, 0, 0);}
+.bg-pattern {background:url("http://img.ctboardofregents.netdna-cdn.com/files/images/bg-wave.png") repeat scroll 0 0 rgba(0, 0, 0, 0);}
 .blue-background {
 	background:#4F7FAB;  margin: 0 -500%;padding: 0.5em 500%;
 	}
@@ -2070,7 +2084,7 @@ noscript {
     color: #fff;}
 
 #header-image-content {
-	padding: 11em 0 7em; 
+	padding: 11em 0 5em; 
 	margin:0 auto;
 	max-width: 64em;
 	display:block;
