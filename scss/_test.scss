@@ -301,7 +301,7 @@ header {
 	border-top: 40px solid #4F7FAB;
 	height: 136px;
 	transition:all 0.3s ease-in-out 0s;
-	position:fixed;top:0;
+	position:absolute;top:0;
 	z-index: 99;
 	box-shadow:0 0 4px rgba(0, 0, 0, 0.3);
 
@@ -309,7 +309,6 @@ header {
 		background: #4F7FAB;
 		border:0;
 		height:$menu-mobile-height;
-		position:absolute;
 	}
 }
 
@@ -376,7 +375,7 @@ header h1 .logo-connscu {
 	width: 229px;
 	z-index: 999;
 	background-position: 0 0;
-	transition: all 0.5s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
 
 	@media #{$breakpoint-menu} {
 		background-position: -64px -15px;
@@ -446,6 +445,7 @@ header.fixed {
 
 	&.menu-visible {
 		height:370px;
+		background:#f9f9f9;
 		
 		//Change font color for dark background
 		#nav-wrap > li > a { 
@@ -2035,7 +2035,7 @@ noscript {
 
 	&:hover {background:#93412d;}
 	
-    	@media #{$breakpoint-menu} {
+    	@media #{$breakpoint-columns} {
 		margin-top: 0.5em; 
 		box-shadow:none;
 		text-align:left;
@@ -2047,7 +2047,7 @@ noscript {
 			background:none;}
 		}
 
-    	@media #{$breakpoint-tablet} {
+    	@media #{$breakpoint-columns} {
 		text-align:center;}
 		}
 
@@ -2064,17 +2064,18 @@ noscript {
 	margin:  -4em 0 2em;
 	width: 80%;
 
-	@media #{$breakpoint-menu} {
-		width:40%;left:0;margin:0 0 0;}
+	@media #{$breakpoint-columns} {
+		//width:40%;left:0;margin:0 0 0;
+		}
 
-	@media #{$breakpoint-tablet} {
+	@media #{$breakpoint-columns} {
 		display:none;}
 	}
 
 .homepage-spotlight-box p {
     margin: 0.5em 0;clear:both;
 
-	@media #{$breakpoint-menu} {
+	@media #{$breakpoint-columns} {
 		clear:none;}
 	}
 

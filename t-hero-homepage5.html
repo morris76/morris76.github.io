@@ -253,7 +253,7 @@
 		<div id="bar-links" class="center-text">
 			<div class="col-third-big-gutter homepage-spotlight-box roller-item">
 				<a href='/newsroom/commencement'>
-				  <img src='http://www.ct.edu/files/images/spotlight-commencement.jpg' alt='Commencement 2015' class="t-right t-col-5 m-col-5 m-right" />
+				  <img src='http://www.ct.edu/files/images/spotlight-commencement.jpg' alt='Commencement 2015' class="m-col-5 m-right" />
 				  <span class="subhead-headline no-margin">Commencement 2015</span>
 				</a>
 				<p>A guide to CSCU commencement ceremonies across Connecticut</p>
@@ -261,7 +261,7 @@
 			</div>
 			<div class="col-third-big-gutter homepage-spotlight-box roller-item">
 				<a href='/academics/nursing'>
-				  <img src='http://www.ct.edu/files/images/spotlight-nursing.jpg' alt='Community College Nursing' class="t-right t-col-5 m-col-5 m-right" />
+				  <img src='http://www.ct.edu/files/images/spotlight-nursing.jpg' alt='Community College Nursing' class="m-col-5 m-right" />
 				  <span class="subhead-headline no-margin">Community College Nursing</span>
 				</a>
 				<p>A four-semester, associate degree program offered at six community colleges</p>
@@ -269,7 +269,7 @@
 			</div>
 			<div class="col-third-big-gutter homepage-spotlight-box roller-item">
 				<a href='/initiatives/tap'>
-				  <img src='http://www.ct.edu/files/images/spotlight-ctmet.jpg' alt='Transfer & Articulation' class="t-right t-col-5 m-col-5 m-right" />
+				  <img src='http://www.ct.edu/files/images/spotlight-ctmet.jpg' alt='Transfer & Articulation' class="m-col-5 m-right" />
 				  <span class="subhead-headline no-margin">Transfer & Articulation</span>
 				</a>
 				<p>Ensuring CT community college programs transfer to CT State Universities and Charter Oak</p>
@@ -511,8 +511,8 @@ return this.height( Math.max.apply(this, $.map( this , function(e){ return $(e).
 $(document).ready(function(){
 
 	$(window).on("load resize",function(e){
-		if ($(window).width() < 990) {
-			$("#bar-links").roller({autoAdvance:true, pagination:false, infinite:true, paged: true, autoWidth: true, autoTime:3000, maxWidth: '990px'});
+		if ($(window).width() < 767) {
+			$("#bar-links").roller({autoAdvance:true, pagination:false, infinite:true, paged: true, autoWidth: true, autoTime:3000, maxWidth: '767px'});
 			}
 		else {
 			$("#bar-links").roller("destroy");
