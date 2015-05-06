@@ -153,6 +153,9 @@ _gaq.push(['_trackEvent', 'Nav-Filter', 'click', $(this).attr('href')]);
 _gaq.push(['_trackEvent', 'Homepage-Spotlight', 'click', $(this).attr('href')]);
 		});	
 		
+		$('input').click(function(){
+_gaq.push(['_trackEvent', 'input', 'click', $(this).attr('href')]);
+		});
 	
 		
     }

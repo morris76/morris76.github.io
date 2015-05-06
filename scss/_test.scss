@@ -1142,7 +1142,7 @@ section#body-wrapper.active:after {
 		padding: 2%;
 		vertical-align: top;
 		width: 25%;
-		border-left:1px solid #E8D5D0;
+		border-left:1px solid #E6E6E6;
 		position: relative;
 
 
@@ -1157,14 +1157,20 @@ section#body-wrapper.active:after {
 		&:first-child {
 			margin-left: 0;
 			border:0;}
+		
+		> p {
+			margin-bottom:0;
+			margin-top:1em;}
 
 		& > a {
 			color: #c4634b;
 			display: block;
-			font-size: 1.1em;
+			//font-size: 1.1em;
+			font-size: 1.2em;
 			font-weight: 700;
-			margin: 0 0 1em;
-			text-transform: uppercase;
+			//margin: 0 0 1em;
+			margin: 0 0 -0.5em;
+			//text-transform: uppercase;
 			border:0;
 				
 			@media #{$breakpoint-columns} {
@@ -1177,13 +1183,13 @@ section#body-wrapper.active:after {
 				font-size:1.2rem;}
 
 			&:after {
-				background:#E8D5D0;
-				content: " ";
-				display: block;
-				height: 1px;
-				margin: 0.5em auto 0;
-				text-align: center;
-				width: 50px;
+				//background:#E8D5D0;
+				//content: " ";
+				//display: block;
+				//height: 1px;
+				//margin: 0.5em auto 0;
+				//text-align: center;
+				//width: 50px;
 				
 				@media #{$breakpoint-columns} {
 					background:none;
@@ -1924,10 +1930,10 @@ blockquote {
     color:#C4634B;}
 
 #section-white {
-	background:#fff;box-shadow:0 0 4px rgba(0, 0, 0, 0.3);}
+	background:#fff;box-shadow:0 0 4px rgba(0, 0, 0, 0.3);position:relative;}
 
 #section-white:after {
-    border-color: transparent transparent #fff #fff;
+    /*border-color: transparent transparent #fff #fff;
     border-image: none;
     border-style: solid;
     border-width: 16px;
@@ -1943,13 +1949,13 @@ blockquote {
     -moz-transform: rotate(-45deg) translate(-7px, -3px);
     -webkit-transform: rotate(-45deg) translate(-7px, -3px);
     transform-origin: 0 0 0;
-    width: 0;}
+    width: 0;*/}
 
 .ie8 #section-white:after, .ie9 #section-white:after {
 	display:none;}
 
 .light {font-style:italic;color:#87898C;}
-.news-box {margin-top:4em;}
+.news-box {margin-top:3em;}
 .arrow-wrap {
 	background:#FFF;
 	border-radius: 50% 50% 50% 50%;
