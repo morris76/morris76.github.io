@@ -2011,6 +2011,16 @@ h3 + p {margin-top:-0.9em;}
 .no-margin {margin:0 !important}
 .no-padding {padding:0 !important;}
 
+//tablet hidden
+.t-hidden {
+    	@media #{$breakpoint-menu} {
+		visibility:hidden; }
+	}
+.t-no {
+    	@media #{$breakpoint-menu} {
+		display:none; }
+	}
+
 //mobile hidden
 .m-hidden {
     	@media #{$breakpoint-columns} {

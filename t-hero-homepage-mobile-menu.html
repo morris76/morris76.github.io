@@ -23,18 +23,6 @@
    <script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
    <![endif]-->
    
-	<script type="text/javascript">
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-25950326-1']);
-		_gaq.push(['_setSiteSpeedSampleRate', 100]);
-		_gaq.push(['_trackPageview']);
-		(function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		//ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';   
-		ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-	</script>
 
 	<style>
 	/*Overrides*/
@@ -43,7 +31,7 @@
 		.nav-main {transform: translateY(0%);background:rgba(249, 249, 249, 0.8);}
 		#nav-utility {display:none;}
 
-		#nav-wrap {white-space:nowrap;background:none;}
+		#nav-wrap {white-space:nowrap;background:none;height:60px;overflow: hidden;}
 		#nav-wrap li, #nav-wrap li > a {display:inline-block;margin:0;border:0;}
 		#nav-wrap li > a {padding:10px 25px;font-size:13px;text-transform:uppercase;font-weight:700;color:#1f2122;}
 		#nav-wrap li.active > a {border-bottom: 3px solid #c4634b;}
@@ -54,7 +42,7 @@
 		#nav-wrap .mega-dropdown li {display:block;}
 		#nav-wrap li > .mega-dropdown li a {color: #565656;font-family: adelle-sans,sans-serif;font-size: 15px;font-weight: 400;padding:0;text-transform:none;}
 		.scroller-content {position:static;}
-		.scroller-horizontal .scroller-content {padding-bottom:5px !important;}
+		.scroller-horizontal .scroller-content {padding-bottom:5px !important;min-height: 120px;}
 		.scroller-horizontal .scroller-bar {border:0;}
 		.scroller-horizontal .scroller-bar {background:none;}
 		.scroller-track {background:none;}
