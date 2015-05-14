@@ -559,7 +559,7 @@ header.fixed {
 	header h2 {
 		color: #FFFFFF;
 		font-size: 2.388em;
-		font-weight: 500;
+		font-weight: 300;
 		line-height: 1.01961em;
 		margin: -67px auto 0;
 		padding-left: 96px;
@@ -767,7 +767,7 @@ nav {
 #nav-utility li a {
 	color: #FFFFFF;
 	font-size: 12px;
-	font-weight: 500;
+	font-weight: 300;
 	letter-spacing: 0.03em;
 	padding: 2px 12px;
 	text-transform: uppercase;
@@ -1121,7 +1121,7 @@ section#body-wrapper.active:after {
 		
 		a {
 			display: block;
-			font: 500 15px "adelle-sans",sans-serif;
+			font: 300 15px "adelle-sans",sans-serif;
 			padding: 8px 0;
 			text-decoration: none;
 			border:0;}
@@ -1348,13 +1348,13 @@ section#body-wrapper.active:after {
 
  
 ul.nav-filter {
-	border-top:1px solid #eee;
-	border-bottom:1px solid #eee;
+	border:1px solid #e1e1e1;
 	margin:2em 0;
 	padding:0;
 	display:inline-block;
 	width: 100%;
-	padding: 0 !important;
+	padding: 0 1em !important;
+	background:#f8f8f8;
 
 	li {
 		display:inline-block;
@@ -1365,7 +1365,8 @@ ul.nav-filter {
 
 		&.disabled a {
 			font-style:italic;
-			color:#87898C;}
+			color:#87898C;
+			text-transform: uppercase;}
 		&.active a {
 			color:#C4634B;}
 
@@ -1386,6 +1387,9 @@ ul.nav-filter {
 				padding:15px 20px 15px 0;
 				display:block;}
 			}
+
+			.fa {
+				color:#BABCBE;}
 
 		&:first-child a {
 			padding-left:0;}
@@ -1621,7 +1625,7 @@ a.button {
 	border: 1px solid #d99a8a;
 	display: inline-block;
 	font-size: 15px;
-	font-weight: 500;
+	font-weight: 300;
 	margin: 12px 6px 12px 0;
 	padding: 8px 20px;
 	text-align: center;
@@ -1642,7 +1646,7 @@ a.button-red {
 	border: 1px solid #813A28;
 	display: inline-block;
 	font-size: 15px;
-	font-weight: 500;
+	font-weight: 300;
 	margin: 12px 6px 12px 0;
 	padding: 8px 20px;
 	text-align: center;
@@ -1665,7 +1669,7 @@ a.button-blue {
 	color: $color-blue;
 	display: inline-block;
 	font-size: 15px;
-	font-weight: 500;
+	font-weight: 300;
 	margin: 12px 6px 12px 0;
 	padding: 8px 20px;
 	text-align: center;
@@ -1682,7 +1686,7 @@ a.button-blue {
 }
 
 h3.side-menu-header {
-	font: 500 16px "adelle",sans-serif;
+	font: 300 16px "adelle",sans-serif;
 	margin-bottom: 0;
 	padding: 0 0 20px;
 	text-align: center;
@@ -2002,7 +2006,7 @@ h3 + p {margin-top:-0.9em;}
 	display:inline-block;
 	color:#c4634b;font-size: 14px;cursor: pointer;}
 .toggle .text {
-    margin-left : 10px;cursor: pointer;font-weight: 500;color:#4F79A0;}
+    margin-left : 10px;cursor: pointer;font-weight: 300;color:#4F79A0;}
 .toggle.expanded .image:after {
     content:"";
 	font-family:fontawesome;

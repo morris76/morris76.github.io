@@ -153,8 +153,8 @@ _gaq.push(['_trackEvent', 'Nav-Filter', 'click', $(this).attr('href')]);
 _gaq.push(['_trackEvent', 'Homepage-Spotlight', 'click', $(this).attr('href')]);
 		});	
 		
-		$('input').click(function(){
-_gaq.push(['_trackEvent', 'input', 'click', $(this).attr('href')]);
+		$('input[type=text]').focus(function(){
+_gaq.push(['_trackEvent', 'input', 'click', window.location.pathname]);
 		});
 	
 		
@@ -165,8 +165,6 @@ _gaq.push(['_trackEvent', 'input', 'click', $(this).attr('href')]);
 /****************** Track Hash Clicks ***************/
 
 $('.tabs li a').mousedown(function(){
-	//console.log($(this).attr('href'));
-    //_gaq.push(['_trackPageview',location.pathname + location.search  + $(this).attr('href')]);
     _gaq.push(['_trackEvent', 'tabs', 'click', location.pathname + location.search  + $(this).attr('href')]);
 });	
 
