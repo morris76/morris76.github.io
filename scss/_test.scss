@@ -670,11 +670,11 @@ header.fixed {
 		top: 0;
 		@media #{$breakpoint-menu} {
 			border-top:0;
-			height: $menu-mobile-height;
+			height: 65px;
 			background: #4F7FAB;
 			}
 		@media #{$breakpoint-tablet} {
-			min-height:$menu-mobile-height;
+			min-height:65px;
 			}
 		}
 	.nav-main {
