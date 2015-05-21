@@ -50,6 +50,12 @@ $header-image-small-height:	420px;
 .ie9 #homepage-spotlight span {background:rgba(44, 56, 67, 0.2);}
 .ie9 #homepage-spotlight span:hover {background:rgba(44, 56, 67, 0);}
 
+.banner:after {
+	background:#2d5b85;
+	content: "";
+	display: block;
+	height: 3px;}
+
 .banner-graphic {
 
 	header{
@@ -383,7 +389,7 @@ header h1 .logo-connscu {
 	overflow: hidden;
 	position: absolute;
 	text-indent: 100%;
-	top: -28px;
+	top: -26px;
 	transition: all 0.7s ease-in-out 0s;
 	white-space: nowrap;
 	width: 229px;
@@ -502,9 +508,15 @@ header.fixed {
 		background:#2D5B85;
 		content: "";
 		display: block;
-		height: 0px;
+		height: 3px;
 		width: 100%;
+
+		@media #{$breakpoint-menu} {
+			content:none;
+			}
 		}
+	.banner:after {
+		content:none;}
 	#header-image-small {
 		height:460px;
 
@@ -547,7 +559,7 @@ header.fixed {
 		position: absolute;
 		display:inline-block;
 		text-indent: 100%;
-		top: -85px;
+		top: -88px;
 		transition: all 0.3s ease-in-out 0s;
 		white-space: nowrap;
 		z-index: 999;cursor: pointer;
@@ -570,16 +582,18 @@ header.fixed {
 		}
 	header h1 #logo-connscu-abr {
 		color: #CEDBE8;
+		color:rgba(255, 255, 255, 0.65);
 		display: inline-block;
-		font-size: 0.6em;
+		font-size: 0.55em;
 		margin-left: 81px;
 		margin-right: 0.75em;
 		position: relative;
-		top: -98px;
+		top: -103px;
 		font-family: adelle;
 		
 		&:after{
 			background:#87A7C6;
+			background:rgba(255, 255, 255, 0.65);
 			content: "";
 			height: 1.5em;
 			margin-left: 0.35em;
@@ -620,8 +634,8 @@ header.fixed {
 		font-size: 0.6em;
 		margin-left: 0;
 		position: relative;
-		top: -98px;
-		font-weight:300;
+		top: -103px;
+		font-weight:700;
 		color:#fff;cursor: pointer;
 		@media #{$breakpoint-menu} {
 			display: table-cell;
@@ -692,7 +706,7 @@ header.fixed {
 			}
 		}
 
-	#nav-wrap, #nav-utility {display: inline-block;margin: 0;padding: 32px 0 0;position: relative;right: auto;top: 0;
+	#nav-wrap, #nav-utility {display: inline-block;margin: 0;padding: 29px 0 0;position: relative;right: auto;top: 0;
 		@media #{$breakpoint-menu} {
 			padding-top:0;
 			}
@@ -702,6 +716,7 @@ header.fixed {
 		@media #{$breakpoint-tablet} {
 			font-size: 17px;}
 		}
+	#nav-wrap > li:last-child {border:0;}
 	#nav-wrap > li:last-child > a {padding-right: 20px;}
 	#nav-wrap > li:hover > a {border-bottom: 3px solid #C4634B;
 		@media #{$breakpoint-menu} {
@@ -719,7 +734,7 @@ header.fixed {
 	header.menu-visible #nav-wrap > li:hover > a {color: #000;text-decoration: none;}
 
 	.banner.fixed {
-		height:65px;border-top: 0 none;
+		height:60px;border-top: 0 none;
 		h1:after {content:none;}
 		h2 {display:none;}
 		#nav-wrap {top: 6px;}
@@ -1945,6 +1960,13 @@ hr.icon:after {
 
     h3 {
     }
+}
+
+.yellow-box {
+    background: none repeat scroll 0 0 #fffce6;
+    border: 1px solid #e6e1bb;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 20px;
 }
 
 .top-blue:before {

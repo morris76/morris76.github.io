@@ -156,6 +156,10 @@ _gaq.push(['_trackEvent', 'Homepage-Spotlight', 'click', $(this).attr('href')]);
 		$('input[type=text]').focus(function(){
 _gaq.push(['_trackEvent', 'input', 'click', window.location.pathname]);
 		});
+		
+		$('#nav-button').mousedown(function(e){
+_gaq.push(['_trackEvent', 'Mobile-Menu-Icon', 'click', $(this).attr('href')]);
+		});	
 	
 		
     }
