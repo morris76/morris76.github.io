@@ -292,7 +292,7 @@ $("#nav-button").on("click",function(event){
 if($(window).width() < 990){
 
 	$(window).load(function() {
-		$('#nav-wrap > li:has(.mega-dropdown) > a:first-child').append("<i class='fa fa-fw fa-angle-down'></i>");
+		$('#nav-wrap > li:has(.mega-dropdown) > a:first-child').append("<i class='fa fa-fw fa-angle-down color-red'></i>");
 	});
 
 	$('#nav-wrap > li:has(.mega-dropdown) > a:first-child').click(function(e) {

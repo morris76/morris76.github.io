@@ -374,7 +374,7 @@ header h1 {
 		font-family: adelle,sans-serif;
 		font-size: 22px;
 		font-weight: 700;
-		left: 75px;
+		left: 70px;
 		margin: 0px;
 		position: absolute;
 		color:#fff;
@@ -468,7 +468,16 @@ header.fixed {
 		height: 48px;
 		top: 10px;
 		width: 59px;
-	}
+
+		&:after	{
+			border: 1px solid rgba(0, 0, 0, 0.17);
+			bottom: 2px;
+			content: "";
+			left: 2px;
+			position: absolute;
+			right: 2px;
+			top: 2px;}
+		}
 
 	#nav-wrap {
 		top:-5px;
@@ -741,9 +750,9 @@ header.fixed {
 		#nav-wrap > li > a {}
 		h1 a {display:none;}
 		}
-	#nav-button {height:65px;
+	#nav-button {height:65px - 12;
 		&:before{
-			height:65px;}
+			height:65px - 12;}
 		}
 	#body-wrapper {
 		padding-bottom:3em;}
@@ -783,10 +792,12 @@ header.fixed {
 	display: none;
 	font-size: 20px;
 	position: absolute;
-	right: 0;
-	top: 0;
-	height: $menu-mobile-height;
+	right: 6px;
+	top: 6px;
+	height: $menu-mobile-height - 12;
 	transition: 1s all ease-in-out; 
+	border: 1px solid #6f9ac1;
+	border-radius: 6px;
 
 	@media #{$breakpoint-menu} {
 		display:block;    
@@ -797,10 +808,10 @@ header.fixed {
 	display: table-cell;
 	font-family: fontawesome;
 	font-size: 1.4em;
-	height: $menu-mobile-height;
+	height: $menu-mobile-height - 12;
 	text-align: center;
 	vertical-align: middle;
-	width: 60px;
+	width: 54px;
 	}
 	
 	&.active{
@@ -1460,7 +1471,7 @@ section#body-wrapper.active:after {
  
 ul.nav-filter {
 	border:1px solid #e1e1e1;
-	margin:2em 0;
+	margin:0 0 2em 0;
 	padding:0;
 	display:inline-block;
 	width: 100%;
