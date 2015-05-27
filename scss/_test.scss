@@ -63,8 +63,7 @@ $header-image-small-height:	420px;
 		background:rgba(249, 249, 249, 0.8);
 
 		@media #{$breakpoint-menu} {
-			background: #4F7FAB;
-		}
+			background: #4F7FAB;}
 
 		&.menu-visible {
 			background: #F9F9F9;
@@ -514,11 +513,13 @@ header.fixed {
 
 .department {
 	.banner:before {
-		background:#2D5B85;
+		background:rgba(0, 0, 0, 0.2);
 		content: "";
 		display: block;
 		height: 3px;
 		width: 100%;
+		position:relative;
+		top:-3px;
 
 		@media #{$breakpoint-menu} {
 			content:none;
@@ -702,7 +703,7 @@ header.fixed {
 		}
 	.nav-main {
 		position: relative;
-		top: -101px;
+		top: -104px;
 		@media #{$breakpoint-menu} {
 			top:-12px;
 			width:auto;
@@ -2004,7 +2005,14 @@ hr.icon:after {
 
 .top-align-p {margin-top:2em;}
 
-.bg-pattern {background:url("http://img.ctboardofregents.netdna-cdn.com/files/images/bg-wave.png") repeat scroll 0 0 rgba(0, 0, 0, 0);}
+.bg-pattern {
+	background:url("http://img.ctboardofregents.netdna-cdn.com/files/images/bg-wave.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+	
+	@media #{$breakpoint-menu} {
+		background-image:url("http://img.ctboardofregents.netdna-cdn.com/files/images/bg-wave-hires.png");
+		background-size:23px 12px;
+		background-repeat:repeat;}
+	}
 .blue-background {
 	background:#4F7FAB;  margin: 0 -500%;padding: 0.5em 500%;
 	}
