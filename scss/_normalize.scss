@@ -14,6 +14,8 @@ html {
   line-height: 1.625em;
   font-weight:300;
   color:#26292C;
+  //text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 /**
