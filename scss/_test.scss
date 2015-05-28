@@ -927,6 +927,8 @@ nav {
 	margin: 0;
 	padding: 38px 23px 18px;
 	letter-spacing: 0.01em;
+	
+	.fa {font-size: 80%;}
 
 	@media #{$breakpoint-smallnav} {
 		font-size:18px;
