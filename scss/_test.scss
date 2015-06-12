@@ -16,6 +16,7 @@ $color-text:			#2D2F32;
 $color-text-light:		#474A4E;
 $color-text-superlight:		#7C8085;
 $color-red:			#C4634B;
+$color-red-light:		#efd8d2;
 $color-blue:			#4F7FAB;
 
 $header-image-height:		590px;
@@ -173,7 +174,7 @@ $header-image-small-height:	420px;
 		
 
 		h3 {
-			color: #efd8d2;
+			color: $color-red-light;
 			font-style: italic;
 			font-weight: 300;
 			margin-top: -0.5em;
@@ -260,7 +261,7 @@ $header-image-small-height:	420px;
 			}
 
 		h3 {
-			color: #efd8d2;
+			color: $color-red-light;
 			font-style: italic;
 			font-weight: 300;
 			margin-top: -0.5em;
@@ -890,7 +891,7 @@ nav {
 #nav-utility li a {
 	color: #FFFFFF;
 	font-size: 12px;
-	font-weight: 300;
+	font-weight: 400;
 	letter-spacing: 0.03em;
 	padding: 2px 12px;
 	text-transform: uppercase;
@@ -1246,7 +1247,7 @@ section#body-wrapper.active:after {
 		
 		a {
 			display: block;
-			font: 300 15px "adelle-sans",sans-serif;
+			font: 400 15px "adelle-sans",sans-serif;
 			padding: 8px 0;
 			text-decoration: none;
 			border:0;}
@@ -1414,61 +1415,73 @@ section#body-wrapper.active:after {
 	
 	@media #{$breakpoint-tablet} {
 		font-size: 1.1em;}
-}
+	}
 
 
 .subhead-line {
-    overflow: hidden;
-    text-align: center;
-    color:rgba(0, 0, 0, 0.80);
-    font-weight:400;
-    padding-top:1em;
-}
-.subhead-line:before,
-.subhead-line:after {
-    background-color: rgba(0, 0, 0, 0.1);
-    content: "";
-    display: inline-block;
-    height: 1px;
-    position: relative;
-    vertical-align: middle;
-    width: 50%;
-}
-.subhead-line:before {
-    right: 1em;
-    margin-left: -50%;
-}
-.subhead-line:after {
-    left: 1em;
-    margin-right: -50%;
-}
+	overflow: hidden;
+	text-align: center;
+	color:rgba(0, 0, 0, 0.80);
+	font-weight:400;
+	padding-top:1em;
+
+	&:before {
+		background-color: rgba(0, 0, 0, 0.1);
+		content: "";
+		display: inline-block;
+		height: 1px;
+		position: relative;
+		vertical-align: middle;
+		width: 50%;
+		right: 1em;
+		margin-left: -50%;
+		}
+
+	&:after {
+		background-color: rgba(0, 0, 0, 0.1);
+		content: "";
+		display: inline-block;
+		height: 1px;
+		position: relative;
+		vertical-align: middle;
+		width: 50%;
+		left: 1em;
+		margin-right: -50%;
+		}
+	}
 
 
-.subhead-line2 {
-  text-align: center; /* horizontal centering */
-  line-height: 4px; /* vertical centering */
-  height: 3px; /* gap between the lines */
-  font-size: 1.2em; /* choose font size you like */
-  border-width: 1px 0; /* top and bottom borders */
-  border-style: solid;
-  border-color:#E3E3E3;
-  margin: 3em 10%; /* 20px space above/below, 10px left/right */
+.subhead-line-white {
+	overflow: hidden;
+	text-align: center;
+	color:rgba(255,255,255, 0.80);
+	font-weight:400;
+	padding-top:1em;
 
-  /* ensure 1px gap between borders */
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  -ms-box-sizing: content-box;
-  -o-box-sizing: content-box;
-  box-sizing: content-box;
-}
+	&:before {
+		background-color: rgba(255,255,255, 0.4);
+		content: "";
+		display: inline-block;
+		height: 1px;
+		position: relative;
+		vertical-align: middle;
+		width: 50%;
+		right: 1em;
+		margin-left: -50%;
+		}
 
-.subhead-line2:after {
-  color: #C9C9C9;
-  display: inline; /* for vertical centering and background knockout */
-  background-color: #fff; /* same as background color */
-  padding: 0 0.3em; /* size of background color knockout */
-}
-
+	&:after {
+		background-color: rgba(255,255,255, 0.4);
+		content: "";
+		display: inline-block;
+		height: 1px;
+		position: relative;
+		vertical-align: middle;
+		width: 50%;
+		left: 1em;
+		margin-right: -50%;
+		}
+	}
 
 
  
@@ -1728,6 +1741,7 @@ thead tr th {
 
 /* colors */
 .color-red {color:$color-red;}
+.color-red-light {color:$color-red-light;}
 .color-blue {color:$color-blue;}
 .color-text {color:$color-text;}
 .color-white {color:#FFF;}
@@ -1750,7 +1764,7 @@ a.button {
 	border: 1px solid #d99a8a;
 	display: inline-block;
 	font-size: 15px;
-	font-weight: 300;
+	font-weight: 400;
 	margin: 12px 6px 12px 0;
 	padding: 8px 20px;
 	text-align: center;
@@ -1771,7 +1785,7 @@ a.button-red {
 	border: 1px solid #813A28;
 	display: inline-block;
 	font-size: 15px;
-	font-weight: 300;
+	font-weight: 400;
 	margin: 12px 6px 12px 0;
 	padding: 8px 20px;
 	text-align: center;
@@ -1794,7 +1808,7 @@ a.button-blue {
 	color: $color-blue;
 	display: inline-block;
 	font-size: 15px;
-	font-weight: 300;
+	font-weight: 400;
 	margin: 12px 6px 12px 0;
 	padding: 8px 20px;
 	text-align: center;
@@ -1811,7 +1825,7 @@ a.button-blue {
 }
 
 h3.side-menu-header {
-	font: 300 16px "adelle",sans-serif;
+	font: 400 16px "adelle",sans-serif;
 	margin-bottom: 0;
 	padding: 0 0 20px;
 	text-align: center;
@@ -2033,6 +2047,7 @@ hr.icon:after {
 
 .serif {font-family: adelle,sans-serif;}
 .thin {font-weight:300;}
+.bold {font-weight:700;}
 
 .header-arrow {color:rgba(0,0,0,0.2);}
 
@@ -2273,7 +2288,7 @@ noscript {
 	color: #fff;
 	text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
 	position: relative;
-	font-weight: 200;
+	font-weight: 300;
 	padding-bottom: 1em;
 	display:inline-block;
 	font-style: italic;
