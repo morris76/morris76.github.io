@@ -683,7 +683,7 @@ header.fixed {
 			}
 		}
 	header #banner-wrap {
-		text-align: center;
+		text-align: center;height: 60px;
 		@media #{$breakpoint-menu} {
 			text-align: left;
 			height:65px;
@@ -742,7 +742,7 @@ header.fixed {
 	.col_1 {width: 100%;}
 
 	header.menu-visible #nav-wrap > li > a {}
-	header.menu-visible #nav-wrap > li:hover > a {color: #000;text-decoration: none;}
+	header.menu-visible #nav-wrap > li:hover > a {text-decoration: none;}
 
 	.banner.fixed {
 		height:60px;border-top: 0 none;
@@ -787,8 +787,11 @@ header.fixed {
 	}
 }
 
-#nav-button {
-	background:#2C5B87;
+#nav-button { 
+	background: rgba(0, 0, 0, 0.15);
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	//background:#2C5B87;
+	//border: 1px solid #6f9ac1;
 	color: #fff;
 	cursor: pointer;
 	display: none;
@@ -798,7 +801,6 @@ header.fixed {
 	top: 6px;
 	height: $menu-mobile-height - 12;
 	transition: 1s all ease-in-out; 
-	border: 1px solid #6f9ac1;
 	border-radius: 6px;
 
 	@media #{$breakpoint-menu} {
@@ -1175,7 +1177,7 @@ section#body-wrapper.active:after {
 	}
 
 .body-content-small {
-	padding-top:175px;
+	padding-top:184px;
 	
 	@media #{$breakpoint-menu} {
 		padding-top:20px;}
