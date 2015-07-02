@@ -181,7 +181,7 @@ $(window).hashchange( function(){
 /****************** Sticky Navigation ***************/
 if($(window).width() > 990){
 $(window).scroll(function() {
-	var scroll = $(window).scrollTop()-40;
+	var scroll = $(window).scrollTop()-0;
 	if (scroll >= 1)  {
 		$(".banner").addClass("fixed");$(".logo-connscu").addClass("morph");} 
 	else {
@@ -189,7 +189,7 @@ $(window).scroll(function() {
 		});
 
 $(window).scroll(function() {
-	var scrolldept = $(window).scrollTop()-100;
+	var scrolldept = $(window).scrollTop()-0;
 	if (scrolldept >= 1)  {
 		$(".department .banner").addClass("fixed");$(".logo-connscu").addClass("morph");} 
 	else {
