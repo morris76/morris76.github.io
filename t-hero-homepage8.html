@@ -265,7 +265,7 @@
 </section>
 
 <style>
-#homepage-header-image {background-image:url(http://www.ct.edu/files/images/header-new245.jpg);background-size:cover;}
+#homepage-header-image {background-image:url(http://www.ct.edu/files/images/homepage-bg-15.jpg);background-size:cover;height:auto;position:relative;}
 .homepage-spotlight-box { transition: all .5s ease-in-out; }
 .homepage-spotlight-box.grow { transform: scale(1.05); }
 .homepage-spotlight-box:hover { transform: scale(1.05); }
@@ -478,15 +478,12 @@
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script type="text/javascript" src="scripts/global.js"></script>
-<!--[if lt IE 9]>
-<![endif]-->
 <!--[if IE 9]>
-<script type="text/javascript" src="scripts/matchMedia-IE9.js"></script>
+<script type="text/javascript" src="http://img.ctboardofregents.netdna-cdn.com/files/scripts/matchMedia-IE9.js"></script>
 <![endif]-->
 
+<script type="text/javascript" src="http://img.ctboardofregents.netdna-cdn.com/files/scripts/roller.js"></script>
 <script type="text/javascript">
-var config = {reset:  false,vFactor: 0.6}
-window.sr = new scrollReveal(config);
 
 $.fn.setAllToMaxHeight = function(){
 return this.height( Math.max.apply(this, $.map( this , function(e){ return $(e).height() }) ) );}
@@ -517,26 +514,21 @@ $(document).ready(function(){
 		 return false;
 	});
 
-});
-</script>
+	if($(window).width() > 990){
 
+		var $items = $('#bar-links > div'),
+		delay = 3000;
+		$items.first().addClass('grow');
 
-<script>
-jQuery(document).ready(function($) {
+		setInterval(function(){
+		  var $current = $items.filter('.grow'),
+			  $next = $current.next().length ? $current.next() : $items.first();
 
+		  $current.removeClass('grow');
+		  $next.addClass('grow');
+		}, delay);
 
-var $items = $('#bar-links > div'),
-    delay = 3000;
-    $items.first().addClass('grow');
-
-setInterval(function(){
-  var $current = $items.filter('.grow'),
-      $next = $current.next().length ? $current.next() : $items.first();
-
-  $current.removeClass('grow');
-  $next.addClass('grow');
-}, delay);
-
+	};  
 
 });
 </script>

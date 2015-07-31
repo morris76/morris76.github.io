@@ -1303,7 +1303,14 @@ section#body-wrapper.active:after {
 			border:0;
 				
 			@media #{$breakpoint-menu} {
-				font-size:1.1rem;}
+				//font-size:1.1rem;
+				border: 1px solid rgba(196, 99, 75, 0.3);
+				margin: 0;
+				padding: 0.7em 1em;
+				text-align:left;
+				box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
+				text-transform:none;
+				font-size:1rem;}
 
 			&:after {
 				//background:#E8D5D0;
@@ -2263,7 +2270,7 @@ noscript {
     color: #fff;}
 
 #header-image-content {
-	padding: 12em 0 2em; 
+	padding: 12em 0 3em; 
 	margin:0 auto;
 	max-width: 64em;
 	display:block;
@@ -2310,6 +2317,7 @@ noscript {
 #bar-links {
 	overflow: hidden;
 	width: 100%;
+	padding: 0 1em;
 
     	@media #{$breakpoint-smallnav} {
 		width:90%;margin:0 auto;}
