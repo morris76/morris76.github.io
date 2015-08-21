@@ -51,7 +51,7 @@ $header-image-small-height:	420px;
 .ie9 #homepage-spotlight span {background:rgba(44, 56, 67, 0.2);}
 .ie9 #homepage-spotlight span:hover {background:rgba(44, 56, 67, 0);}
 
-#banner:after {
+.banner:after {
 	background:#3f6e99;
 	content: "";
 	display: block;
@@ -59,7 +59,7 @@ $header-image-small-height:	420px;
 
 .banner-graphic {
 
-	#banner {
+	header{
 		border-bottom:0;
 		background:rgba(249, 249, 249, 0.8);
 
@@ -315,7 +315,7 @@ $header-image-small-height:	420px;
 }
 
 
-#banner {
+header {
 	width:100%;
 	background: #F9F9F9;
 	border-top: 40px solid #4F7FAB;
@@ -332,7 +332,7 @@ $header-image-small-height:	420px;
 	}
 }
 
-#banner.menu-visible {
+header.menu-visible {
 	height:410px;
 	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
 
@@ -349,7 +349,7 @@ $header-image-small-height:	420px;
 	}
 }
 
-#banner #banner-wrap {
+header #banner-wrap {
 	max-width:77em;
 	margin:0 auto;
 	padding: 0 1em;
@@ -363,7 +363,7 @@ $header-image-small-height:	420px;
 		height: $menu-mobile-height;
 		}
 	}
-#banner h1 {
+header h1 {
 	display:inline;
 	
 		
@@ -382,7 +382,7 @@ $header-image-small-height:	420px;
 	}}
 }
 
-#banner h1 .logo-connscu {
+header h1 .logo-connscu {
 	background: url("http://img.ctboardofregents.netdna-cdn.com/files/images/logo-connscu-website.png") no-repeat scroll;
 	box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
 	height: 148px;
@@ -419,7 +419,7 @@ $header-image-small-height:	420px;
 	}
 }
 
-#banner.fixed {
+header.fixed {
 	position:fixed;
 	// old background color - background:#F9F9F9;
 	background:#4f7fab;
@@ -513,7 +513,7 @@ $header-image-small-height:	420px;
 
 
 .department {
-	#banner:before {
+	.banner:before {
 		background:rgba(0, 0, 0, 0.2);
 		content: "";
 		display: block;
@@ -528,7 +528,7 @@ $header-image-small-height:	420px;
 			z-index:1;
 			}
 		}
-	#banner:after {
+	.banner:after {
 		content:none;}
 	#header-image-small {
 		height:460px;
@@ -555,13 +555,13 @@ $header-image-small-height:	420px;
 
 		}
 
-	#banner h1:after {
+	header h1:after {
 		@media #{$breakpoint-menu} {
 			display:none;content:"";
 			}
 		}
 
-	#banner h1 .logo-connscu {
+	header h1 .logo-connscu {
 		background: url("http://img.ctboardofregents.netdna-cdn.com/files/images/logo-morterboard.png") no-repeat scroll;
 		background-size:78px 68px;
 		background-position: -4px -3px;
@@ -594,7 +594,7 @@ $header-image-small-height:	420px;
 			width: 50px;
 			}
 		}
-	#banner h1 #logo-connscu-abr {
+	header h1 #logo-connscu-abr {
 		color: #CEDBE8;
 		color:rgba(255, 255, 255, 0.65);
 		display: inline-block;
@@ -644,7 +644,7 @@ $header-image-small-height:	420px;
 			}
 		}
 
-	#banner h1 #logo-dept {
+	header h1 #logo-dept {
 		font-size: 0.6em;
 		margin-left: 0;
 		position: relative;
@@ -671,7 +671,7 @@ $header-image-small-height:	420px;
 			}
 			
 		}
-	#banner h2 {
+	header h2 {
 		color: #FFFFFF;
 		font-size: 2.388em;
 		font-weight: 300;
@@ -685,14 +685,14 @@ $header-image-small-height:	420px;
 			margin:-67px 0 0;width:85%;padding-left: 86px;
 			}
 		}
-	#banner #banner-wrap {
+	header #banner-wrap {
 		text-align: center;height: 60px;
 		@media #{$breakpoint-menu} {
 			text-align: left;
 			height:70px;
 			}
 		}
-	#banner {
+	.banner {
 		border-top: 110px solid #4F7FAB;
 		height: 170px;
 		top: 0;
@@ -748,7 +748,7 @@ $header-image-small-height:	420px;
 	header.menu-visible #nav-wrap > li > a {}
 	header.menu-visible #nav-wrap > li:hover > a {text-decoration: none;}
 
-	#banner.fixed {
+	.banner.fixed {
 		height:60px;border-top: 0 none;
 		h1:after {content:none;}
 		h2 {display:none;}
