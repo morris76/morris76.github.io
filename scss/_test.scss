@@ -10,7 +10,7 @@ $breakpoint-columns:		"(max-width: 767px)";
 $breakpoint-tablet:		"(max-width: 668px)";
 $breakpoint-mobile:		"(max-width: 579px)";
 
-$menu-mobile-height:		56px;
+$menu-mobile-height:		59px;
 
 $color-text:			#2D2F32;
 $color-text-light:		#474A4E;
@@ -55,7 +55,14 @@ $header-image-small-height:	420px;
 	background:#3f6e99;
 	content: "";
 	display: block;
-	height: 3px;}
+	height: 3px;
+
+		@media #{$breakpoint-menu} {
+		position: absolute;
+		top: 56px;
+		width: 100%;}
+	
+	}
 
 .banner-graphic {
 
@@ -329,6 +336,7 @@ $header-image-small-height:	420px;
 		background: #4F7FAB;
 		border:0;
 		height:$menu-mobile-height;
+		position:fixed;
 	}
 }
 
@@ -891,7 +899,7 @@ nav {
 		}
 }
 #nav-utility {
-	top: -62px;
+	top: -59px;
 	right: 5px;
 	}
 
