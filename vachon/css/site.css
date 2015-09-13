@@ -453,7 +453,7 @@ header { width: 100%; height: 80px; transition: all 0.3s ease-in-out 0s; positio
 @media (max-width: 990px) { header { background: #4F7FAB; border: 0; height: 60px; } }
 
 header #banner-wrap { max-width: 77em; margin: 0 auto; padding: 0 1em; position: relative; }
-@media (max-width: 990px) { header #banner-wrap { background: #000; width: 100%; position: fixed; display: block; height: 60px; } }
+@media (max-width: 990px) { header #banner-wrap { background: #000; width: 100%;display: block; height: 60px; } }
 
 header h1 { display: inline; }
 
