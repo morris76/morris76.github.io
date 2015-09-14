@@ -439,7 +439,7 @@ html { box-sizing: border-box; transition: all 0.3s ease-in-out 0s; }
 .banner-graphic header.menu-visible { background: #F9F9F9; }
 @media (max-width: 990px) { .banner-graphic header.menu-visible { height: auto; background: #4F7FAB; } }
 @media (max-width: 668px) { .banner-graphic header #nav-wrap > li > a { color: #26292C; } }
-.banner-graphic section.body-content { padding: 7em 0.5em; }
+.banner-graphic section.body-content { padding: 5em 0.5em; }
 .banner-graphic section.body-content .row { font-size: 1em; line-height: 1.5em; }
 @media (max-width: 990px) { .banner-graphic section.body-content { padding: 4em 1.5em; margin: 0 1em; } }
 @media (max-width: 668px) { .banner-graphic section.body-content { padding: 4em 1.5em; } }
@@ -744,12 +744,12 @@ noscript { position: fixed; text-align: center; top: 0; width: 100%; z-index: 99
 
 .homepage-spotlight-box .button { background: #93412d; border: 1px solid #e68e78; color: #fff; }
 
-.homepage-solutions-box { background: #F55B5B;  padding: 40px 20px; margin-bottom: 0.5em; margin-top: 2em; border-radius:6px; border: 2px solid #C33535;}
+.homepage-solutions-box { background: #ffffff ;  padding: 40px 20px; margin-bottom: 0.5em; margin-top: 2em; border-radius:6px;box-shadow: 0 0 4px rgba(0, 0, 0, 0.21);}
 @media (max-width: 767px) { .homepage-solutions-box { margin-top: 0.5em; box-shadow: none; text-align: left;  margin-left: 0; transition: none; }
   .homepage-solutions-box:hover {  } }
 @media (max-width: 767px) { .homepage-solutions-box { text-align: center; } }
 
-.homepage-solutions-box span { color: #ffffff; display: block; font-size: 1em; }
+.homepage-solutions-box span { font-size: 1em;font-weight: 600; }
 
 .homepage-solutions-box i { color: #cc2036; font-size: 2em; margin-bottom: 0.4em; }
 
@@ -764,10 +764,10 @@ noscript { position: fixed; text-align: center; top: 0; width: 100%; z-index: 99
 
 #homepage-header-image #header-image-content h3 { color: rgba(255, 255, 255, 0.7); font-style: italic; font-size: 22px; }
 
-h2 { color: #F55B5B; font-size: 2em; font-weight: bold; border-bottom:2px solid rgba(0, 0, 0, 0.14); padding:0.5em 0 0.3em 0; display: inline-block; margin-top: 0; font-family: 'Roboto Slab', serif;text-transform:uppercase;}
+h2 { color: #322d2d; font-size: 2em; font-weight: bold; border-bottom:2px solid #f55b5b; padding:0.5em 0 0.3em 0; display: inline-block; margin-top: 0; text-transform:uppercase;}
 
 a.boxer {
-    color: #fff;
+    color: #5C5555;
     border: 0;font-size: 1.2em;}
 
 /* 
