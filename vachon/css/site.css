@@ -336,7 +336,7 @@ img { width: 100%; }
   .hide-t-col:first-child + .hide-t-col + [class*="t-col-"] { margin-left: 0; }
   [class*="t-col-"].t-center { display: block; float: none; margin-right: auto; margin-left: auto !important; } }
 @media only screen and (max-width: 767px) { /* Typography for mobile   If you want the same font size on mobile & desktop you can delete everything from here...  */
-  body { font-size: 75%; line-height: 1.5715; }
+  body { font-size: 95%; line-height: 1.5715; }
   .no-break, .indent, p, pre, dl, menu, ol, ul, address, blockquote, figure, table, table caption { margin-bottom: 1.5715em; }
   h1, .h1 { font-size: 2.5715em; line-height: 1.2223em; }
   h2, .h2 { font-size: 2.1429em; line-height: 1.3em; margin-bottom: 0.7334em; }
@@ -458,10 +458,10 @@ header #banner-wrap { max-width: 77em; margin: 0 auto; padding: 0 1em; position:
 header h1 { display: inline; }
 
 header h1 .logo-hi { background: url("../images/vachon-logo.png") no-repeat scroll; height: 65px; overflow: hidden; position: absolute; text-indent: 100%; white-space: nowrap; width: 480px; z-index: 999; background-position: 0 0; transition: all 0.4s ease-in-out 0s; top: 4px; }
-@media (max-width: 990px) { header h1 .logo-hi { left: 7px; background-size: 360px; } }
+@media (max-width: 990px) { header h1 .logo-hi { left: 7px; background-size: 280px;width:280px;top:10px; } }
 
 header.fixed { position: fixed; background: #000000; border-bottom: 0; border-top: 0; height: 80px; }
-@media (max-width: 990px) { header.fixed { background: #4F7FAB; border: 0; position: absolute; top: 0; height: 60px; } }
+@media (max-width: 990px) { header.fixed { background: #4F7FAB; border: 0; position: fixed; top: 0; height: 60px; } }
 header.fixed.menu-visible { height: 370px; background: #f9f9f9; }
 header.fixed.menu-visible #nav-wrap > li > a { color: #1f2122; }
 header.fixed.menu-visible h1:after { color: #1f2122; }
@@ -483,12 +483,12 @@ header.fixed #nav-wrap > li.selected > a { color: #F5DED8; }
 nav { position: relative; }
 
 #nav-wrap, #nav-utility { position: absolute; right: 0; top: 0px; }
-@media (max-width: 990px) { #nav-wrap, #nav-utility { left: 0; display: block; top: 0px; width: 100%; position: static; margin: 0; padding: 0; background: #F2F2F2; } }
+@media (max-width: 990px) { #nav-wrap, #nav-utility { left: 0; display: block; top: 0px; width: 100%; position: static; margin: 0; padding: 0; background: #F55B5B; } }
 #nav-wrap > li:last-child a, #nav-utility > li:last-child a { padding-right: 0; }
 @media (max-width: 990px) { #nav-wrap > li:last-child a, #nav-utility > li:last-child a { padding-right: 0; } }
 
 #nav-wrap > li { display: inline; float: left; }
-@media (max-width: 990px) { #nav-wrap > li { display: block; padding: 0; margin: 0 10%; border-bottom: 1px solid #E1E2E2; float: none; text-align: center; } }
+@media (max-width: 990px) { #nav-wrap > li { display: block; padding: 0; margin: 0 10%; border-bottom: 1px solid #E1E2E2; float: none; text-align: center; } #nav-wrap > li:last-child { border:0;}  }
 
 #nav-wrap > li:hover .mega-dropdown { height: auto; left: 5%; opacity: 1; padding: 2%; z-index: 1; }
 @media (max-width: 990px) { #nav-wrap > li:hover .mega-dropdown { height: auto; left: auto; opacity: 1; padding: 10px 10px 10px 18px; right: 0; margin: 0; } }
@@ -744,12 +744,12 @@ noscript { position: fixed; text-align: center; top: 0; width: 100%; z-index: 99
 
 .homepage-spotlight-box .button { background: #93412d; border: 1px solid #e68e78; color: #fff; }
 
-.homepage-solutions-box { background: #727DB1;  padding: 40px 20px; margin-bottom: 0.5em; margin-top: 2em; border-radius:6px;}
-@media (max-width: 767px) { .homepage-solutions-box { margin-top: 0.5em; box-shadow: none; text-align: left; background: none; margin-left: 0; transition: none; }
-  .homepage-solutions-box:hover { background: none; } }
+.homepage-solutions-box { background: #F55B5B;  padding: 40px 20px; margin-bottom: 0.5em; margin-top: 2em; border-radius:6px; border: 2px solid #C33535;}
+@media (max-width: 767px) { .homepage-solutions-box { margin-top: 0.5em; box-shadow: none; text-align: left;  margin-left: 0; transition: none; }
+  .homepage-solutions-box:hover {  } }
 @media (max-width: 767px) { .homepage-solutions-box { text-align: center; } }
 
-.homepage-solutions-box span { color: #ffffff; display: block; font-size: 1em; font-weight: 700; }
+.homepage-solutions-box span { color: #ffffff; display: block; font-size: 1em; }
 
 .homepage-solutions-box i { color: #cc2036; font-size: 2em; margin-bottom: 0.4em; }
 
@@ -765,6 +765,10 @@ noscript { position: fixed; text-align: center; top: 0; width: 100%; z-index: 99
 #homepage-header-image #header-image-content h3 { color: rgba(255, 255, 255, 0.7); font-style: italic; font-size: 22px; }
 
 h2 { color: #F55B5B; font-size: 2em; font-weight: bold; border-bottom:2px solid rgba(0, 0, 0, 0.14); padding:0.5em 0 1em 0; display: inline-block; margin-top: 0; font-family: 'Roboto Slab', serif;text-transform:uppercase;}
+
+a.boxer {
+    color: #fff;
+    border: 0;font-size: 1.2em;}
 
 /* 
  * Boxer v3.3.0 - 2014-11-25 
