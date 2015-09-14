@@ -1201,7 +1201,7 @@ a.boxer {
 #boxer.mobile.inline .boxer-content,
 #boxer.mobile.iframe .boxer-content {
   overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
 
