@@ -458,7 +458,7 @@ header #banner-wrap { max-width: 77em; margin: 0 auto; padding: 0 1em; position:
 header h1 { display: inline; }
 
 header h1 .logo-hi { background: url("../images/vachon-logo.png") no-repeat scroll; height: 65px; overflow: hidden; position: absolute; text-indent: 100%; white-space: nowrap; width: 480px; z-index: 999; background-position: 0 0; transition: all 0.4s ease-in-out 0s; top: 4px; }
-@media (max-width: 990px) { header h1 .logo-hi { left: 7px; background-size: 280px;width:280px;top:10px; } }
+@media (max-width: 990px) { header h1 .logo-hi { left: 7px; background-size: 255px;width:255px;top:12px; } }
 
 header.fixed { position: fixed; background: #000000; border-bottom: 0; border-top: 0; height: 80px; }
 @media (max-width: 990px) { header.fixed { background: #4F7FAB; border: 0; position: fixed; top: 0; height: 60px; } }
@@ -760,7 +760,7 @@ noscript { position: fixed; text-align: center; top: 0; width: 100%; z-index: 99
 @media (max-width: 990px) { #header-image-content { padding: 2em 1.5em; } }
 
 #homepage-header-image #header-image-content h1 { color: #fff; text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5); position: relative; font-weight: 200; padding-bottom: 0.1em; display: inline-block; font-size: 6em; margin-bottom: 1.5em; text-align: left; }
-@media (max-width: 668px) { #homepage-header-image #header-image-content h1 { font-size: 4em; } }
+@media (max-width: 668px) { #homepage-header-image #header-image-content h1 { font-size: 3em; } }
 
 #homepage-header-image #header-image-content h3 { color: rgba(255, 255, 255, 0.7); font-style: italic; font-size: 22px; }
 
