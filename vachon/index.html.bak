@@ -78,16 +78,16 @@
         </div>
       <div class="row">
          <div class="col-10 center">
-            <h3 class="center-text" style="display:block;">Articles</h3>
+            <h3 class="center-text" style="display:block;">Select Articles</h3>
             <strong>Union-specific pieces (non-academic):</strong>
 				<ul>
-				<li><a href='http://www.ctaflcio.org/index.cfm?action=article&articleID=B5A5C7CF-921A-4D39-B2A6-D8F9F6E605C4' target="_blank">Why UConn Graduate Assistants are Mobilizing on the One-Year Anniversary of Union Recognition</a></li>
-				<li><a href='http://www.labornotes.org/blogs/2015/07/first-contract-uconn-grad-assistants-win-raises-and-much-more' target="_blank">In First Contract, UConn Grad Assistants Win Raises and Much More </a></li>
+				<li><a href='http://www.ctaflcio.org/index.cfm?action=article&articleID=B5A5C7CF-921A-4D39-B2A6-D8F9F6E605C4' target="_blank">Why UConn Graduate Assistants are Mobilizing on the One-Year Anniversary of Union Recognition</a><br>by Todd Vachon, <em>Connecticut AFL-CIO</em></li>
+				<li><a href='http://www.labornotes.org/blogs/2015/07/first-contract-uconn-grad-assistants-win-raises-and-much-more' target="_blank">In First Contract, UConn Grad Assistants Win Raises and Much More </a><br>by Todd Vachon, <em>labornotes.org</em></li>
 				</ul>
             <strong>Academic Pieces about Unions:</strong>
 				<ul>
-				<li><a href='http://onlinelibrary.wiley.com/doi/10.1111/socf.12168/abstract;jsessionid=C91C03BFB3D39C4E395062FDB42C4109.f04t04?systemMessage=Wiley+Online+Library+and+related+systems+will+have+3+hours+of+downtime+on+Saturday+12th+September+2015+from+10%3A00-13%3A00+BST+%2F+05%3A00-08%3A00+EDT+%2F+17%3A00-20%3A00+SGT+for+essential+maintenance.++Apologies+for+the+inconvenience.&userIsAuthenticated=false&deniedAccessCustomisedMessage=' target="_blank">Bargaining for Success: Examining the Relationship Between Teacher Unions and Student Achievement</a></li>
-				<li><a href='http://lsj.sagepub.com/content/early/2013/11/07/0160449X13511539.abstract' target="_blank">Globalization, Labor Market Transformation, and Union Decline in U.S. Metropolitan Areas</a></li>
+				<li><a href='http://onlinelibrary.wiley.com/doi/10.1111/socf.12168/abstract;jsessionid=C91C03BFB3D39C4E395062FDB42C4109.f04t04?systemMessage=Wiley+Online+Library+and+related+systems+will+have+3+hours+of+downtime+on+Saturday+12th+September+2015+from+10%3A00-13%3A00+BST+%2F+05%3A00-08%3A00+EDT+%2F+17%3A00-20%3A00+SGT+for+essential+maintenance.++Apologies+for+the+inconvenience.&userIsAuthenticated=false&deniedAccessCustomisedMessage=' target="_blank">Bargaining for Success: Examining the Relationship Between Teacher Unions and Student Achievement</a><br>by Todd Vachon and Josef (Kuo-Hsun) Ma, <em>Sociological Forum</em></li>
+				<li><a href='http://lsj.sagepub.com/content/early/2013/11/07/0160449X13511539.abstract' target="_blank">Globalization, Labor Market Transformation, and Union Decline in U.S. Metropolitan Areas</a><br>by Todd Vachon, Michael Wallace, <em>United Association for Labor Education</em></li>
 				</ul>
          </div>
       </div>
@@ -126,7 +126,7 @@
                      <span class="subhead-headline no-margin"><a href="#justice" class="boxer" data-boxer-width="700" data-boxer-height="600">Social Justice Unionism<br><span class="sm-button">learn more</span></a></span>
                </div>
                <div class="col-third-big-gutter homepage-solutions-box " data-sr="wait 0.2s, ease-in-out 100px">
-                     <span class="subhead-headline no-margin"><a href="#voice" class="boxer" data-boxer-width="700" data-boxer-height="600">A Voice for Graduate Workers in the State political Arena<br><span class="sm-button">learn more</span></a></span>
+                     <span class="subhead-headline no-margin"><a href="#voice" class="boxer" data-boxer-width="700" data-boxer-height="600">A Voice for Graduate Workers in the State Political Arena<br><span class="sm-button">learn more</span></a></span>
                </div>
                <div class="col-third-big-gutter homepage-solutions-box " data-sr="wait 0.2s, ease-in-out 100px">
                      <span class="subhead-headline no-margin"><a href="#community" class="boxer" data-boxer-width="700" data-boxer-height="600">Building Community and Solidarity at UConn<br><span class="sm-button">learn more</span></a></span>

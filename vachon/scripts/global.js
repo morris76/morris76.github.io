@@ -142,8 +142,8 @@ $(document).on('click', function(event) {
 $(".boxer").boxer({
 	callback: function($target) {
 	$(".icon-search").focus();
-	},
-	mobile:true
+	}
+	//mobile:true
 });
 
 
