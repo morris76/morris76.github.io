@@ -277,7 +277,8 @@ $.scrollDepth();
 $("#nav-button").on("click",function(event){
 	$(".nav-main").toggleClass("active");
 	$("#nav-button").toggleClass("active"); 
-	$("#body-wrapper").toggleClass("active");   
+	$("#body-wrapper").toggleClass("active");  
+	$("body").removeClass("boxer-open");  
 	event.stopPropagation();
 
 	$(document).on('click', function(e){

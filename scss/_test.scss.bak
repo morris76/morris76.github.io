@@ -12,7 +12,6 @@ $breakpoint-mobile:		"(max-width: 579px)";
 
 $menu-mobile-height:		59px;
 
-
 $color-text:			#2D2F32;
 $color-text-light:		#474A4E;
 $color-text-superlight:		#7C8085;
@@ -337,7 +336,7 @@ $header-image-small-height:	420px;
 		background: #4F7FAB;
 		border:0;
 		height:$menu-mobile-height;
-		position:fixed;
+		//position:fixed;
 	}
 }
 
@@ -784,7 +783,11 @@ $header-image-small-height:	420px;
 		&.active {
 			-webkit-transform: translateY(0%);
 			-ms-transform: translateY(0%);
-			transform: translateY(0%);;
+			transform: translateY(0%);
+			background: #252525;
+			height: 100%;
+			overflow: scroll;
+			position: fixed
 			}
 
 		background: #F9F9F9;

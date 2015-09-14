@@ -783,7 +783,11 @@ $header-image-small-height:	420px;
 		&.active {
 			-webkit-transform: translateY(0%);
 			-ms-transform: translateY(0%);
-			transform: translateY(0%);;
+			transform: translateY(0%);
+			background: #252525;
+			height: 100%;
+			overflow: scroll;
+			position: fixed
 			}
 
 		background: #F9F9F9;

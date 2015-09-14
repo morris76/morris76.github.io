@@ -1,15 +1,12 @@
 /* 
- * Boxer v3.3.0 - 2014-11-25 
+ * Boxer v3.3.0 - 2015-04-04 
  * A jQuery plugin for displaying images, videos or content in a modal overlay. Part of the Formstone Library. 
- * http://formstone.it/boxer/ 
+ * http://classic.formstone.it/boxer/ 
  * 
- * Copyright 2014 Ben Plum; MIT Licensed 
+ * Copyright 2015 Ben Plum; MIT Licensed 
  */
 
 
-.boxer-open {
-  overflow: hidden !important;
-}
 .boxer-lock {
   overflow: hidden !important;
 }
@@ -50,10 +47,10 @@
 }
 #boxer,
 #boxer * {
-  -webkit-user-select: auto !important;
-     -moz-user-select: auto !important;
-      -ms-user-select: auto !important;
-          user-select: auto !important;
+  -webkit-user-select: none !important;
+     -moz-user-select: none !important;
+      -ms-user-select: none !important;
+          user-select: none !important;
 }
 #boxer,
 #boxer *,
@@ -87,14 +84,14 @@
           transition: opacity 0.25s linear;
 }
 #boxer .boxer-close {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   position: absolute;
-  top: -0px;
-  right: -0px;
+  top: -7.5px;
+  right: -7.5px;
   z-index: 105;
-  background: #e1e1e1;
-  border-radius: 0 3px 0 0;
+  background: #ffffff;
+  border-radius: 100%;
   cursor: pointer;
   display: block;
   overflow: hidden;
@@ -112,8 +109,9 @@
   content: "";
   font-family:fontawesome;
   display: block;
-  font-size: 1.2em;
-  line-height: 40px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
   margin: auto;
   text-align: center;
   text-indent: 0;
@@ -131,7 +129,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 103;
+  z-index: 105;
   display: block;
   margin: auto;
   opacity: 0;
@@ -195,13 +193,12 @@
   width: 100%;
   background: #ffffff;
   opacity: 1;
-  overflow: auto;
+  overflow: hidden;
   padding: 0;
 }
 #boxer.inline .boxer-content,
 #boxer.iframe .boxer-content {
   width: auto;
-  height:100%;
 }
 #boxer .boxer-image {
   float: left;
@@ -325,7 +322,6 @@
   border-radius: 0;
   padding: 40px 0 0;
 }
-#boxer.mobile .inline_content {padding:1em;color:#fff;}
 #boxer.mobile .boxer-close,
 #boxer.mobile .boxer-close:hover {
   height: 40px;
@@ -334,20 +330,11 @@
   right: 0;
   background: #111111;
   border-radius: 0;
-
-
-  text-indent: 0;
-  overflow: visible;
-  color: white;
-  padding: 7px 4em 0 6em;
-  font-size: 16px;
-
-
 }
 #boxer.mobile .boxer-close:before,
 #boxer.mobile .boxer-close:hover:before {
   color: #cccccc;
-	font-size: 16px;
+  font-size: 28px;
   font-weight: 700;
   line-height: 40px;
 }
