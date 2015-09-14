@@ -9,9 +9,6 @@
 
 .boxer-open {
   overflow: hidden !important;
-  
-		@media #{$breakpoint-menu} {
-			overflow:auto;}
 }
 .boxer-lock {
   overflow: hidden !important;
