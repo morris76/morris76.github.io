@@ -764,7 +764,7 @@ noscript { position: fixed; text-align: center; top: 0; width: 100%; z-index: 99
 
 #homepage-header-image #header-image-content h3 { color: rgba(255, 255, 255, 0.7); font-style: italic; font-size: 22px; }
 
-h2 { color: #F55B5B; font-size: 2em; font-weight: bold; border-bottom:2px solid rgba(0, 0, 0, 0.14); padding:0.5em 0 1em 0; display: inline-block; margin-top: 0; font-family: 'Roboto Slab', serif;text-transform:uppercase;}
+h2 { color: #F55B5B; font-size: 2em; font-weight: bold; border-bottom:2px solid rgba(0, 0, 0, 0.14); padding:0.5em 0 0.3em 0; display: inline-block; margin-top: 0; font-family: 'Roboto Slab', serif;text-transform:uppercase;}
 
 a.boxer {
     color: #fff;

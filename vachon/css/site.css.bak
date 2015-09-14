@@ -457,7 +457,7 @@ header #banner-wrap { max-width: 77em; margin: 0 auto; padding: 0 1em; position:
 
 header h1 { display: inline; }
 
-header h1 .logo-hi { background: url("../images/vachon-logo.png") no-repeat scroll; height: 65px; overflow: hidden; position: absolute; text-indent: 100%; white-space: nowrap; width: 480px; z-index: 999; background-position: 0 0; transition: all 0.4s ease-in-out 0s; top: 4px; }
+header h1 .logo-hi { background: url("../images/vachon-logo.png") no-repeat scroll; height: 65px; overflow: hidden; position: absolute; text-indent: 100%; white-space: nowrap; width: 480px; z-index: 999; background-position: 0 0; transition: all 0.4s ease-in-out 0s; top: 8px; }
 @media (max-width: 990px) { header h1 .logo-hi { left: 7px; background-size: 255px;width:255px;top:12px; } }
 
 header.fixed { position: fixed; background:#f55b5b; border-bottom: 0; border-top: 0; height: 80px; }
