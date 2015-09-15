@@ -133,7 +133,7 @@ h2 { font-size: 2.188em; line-height: 1.019607844em; margin-top: 1.01960784em; m
 
 h3 { font-size: 1.45em; line-height: 1.857142858em; margin-top: 0.92857143em; margin-bottom: 0.92857143em; }
 
-h4 { font-size: 1.25em; line-height: 1.857142858em; margin-top: 0.92857143em; margin-bottom: 0.92857143em; }
+h4 { font-size: 1.15em; line-height: 1.557142858em; margin-top: 0.92857143em; margin-bottom: 0.92857143em;font-weight: 400;}
 
 p, ul, ol, pre, table, blockquote { margin-top: 1.625em; margin-bottom: 1.625em; }
 
@@ -440,7 +440,7 @@ html { box-sizing: border-box; transition: all 0.3s ease-in-out 0s; }
 @media (max-width: 990px) { .banner-graphic header.menu-visible { height: auto; background: #4F7FAB; } }
 @media (max-width: 668px) { .banner-graphic header #nav-wrap > li > a { color: #26292C; } }
 .banner-graphic section.body-content { padding: 5em 0.5em; }
-.banner-graphic section.body-content .row { font-size: 1em; line-height: 1.5em; }
+.banner-graphic section.body-content .row { font-size: 1.03em; line-height: 1.5em; }
 @media (max-width: 990px) { .banner-graphic section.body-content { padding: 4em 1.5em; margin: 0 1em; } }
 @media (max-width: 668px) { .banner-graphic section.body-content { padding: 4em 1.5em; } }
 @media (max-width: 990px) { .banner-graphic section.body-content-box { margin-bottom: 1em; } }
@@ -529,7 +529,7 @@ section#body-wrapper.active:after { opacity: 100; display: block; visibility: vi
 .body-content-box ul.tabs { margin-top: 0; }
 @media (max-width: 990px) { .body-content-box { padding: 2em; margin-bottom: 0; margin-bottom: 1em; } }
 
-.subhead-header { font-size: 0.9em; line-height: 1.41961em; margin-bottom: 0.9em; margin-top: 1.1em; text-transform: uppercase; font-weight: 700; }
+.subhead-header { font-size: 1em; line-height: 1.41961em; margin-bottom: 0.5em; margin-top: 1.1em; text-transform: uppercase; font-weight: 700; }
 
 .subhead-headline { line-height: 1.41961em; margin-top: 0.6em; }
 
@@ -568,7 +568,7 @@ thead tr th { background: none repeat scroll 0 0 #E7E7E7; }
 .center-text { text-align: center; }
 
 /* colors */
-.color-red { color: #cc2036; }
+.color-red { color: #f55b5b; }
 
 .color-blue { color: #113d62; }
 
@@ -1205,4 +1205,4 @@ a.boxer {
   -webkit-overflow-scrolling: touch;
 }
 
-h3 { display: inline-block; margin-bottom: 0; margin-top: 0; font-size: 1.25em; }
+h3 { margin-bottom: 0; margin-top: 0; font-size: 1.25em; }
