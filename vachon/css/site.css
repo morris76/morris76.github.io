@@ -780,7 +780,12 @@ a.boxer {
 
 
 .boxer-open {
-  overflow: hidden !important;
+  overflow: hidden;
+}
+@media (max-width: 990px) {
+.boxer-open {
+  overflow: auto;
+}
 }
 .boxer-lock {
   overflow: hidden !important;
@@ -1097,7 +1102,7 @@ a.boxer {
   border-radius: 0;
   padding: 40px 0 0;
 }
-#boxer.mobile .inline_content {padding:1em;color:#fff;}
+#boxer.mobile .inline_content {padding:1em;}
 #boxer.mobile .boxer-close,
 #boxer.mobile .boxer-close:hover {
   height: 40px;
@@ -1133,7 +1138,7 @@ a.boxer {
   background: #111111;
 }
 #boxer.mobile .boxer-content {
-  background-color: #111111;
+  background-color:;
 }
 #boxer.mobile .boxer-control {
   width: 50px;
