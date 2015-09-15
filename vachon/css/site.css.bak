@@ -780,7 +780,12 @@ a.boxer {
 
 
 .boxer-open {
-  overflow: hidden !important;
+  overflow: hidden;
+}
+@media (max-width: 990px) {
+.boxer-open {
+  overflow: auto;
+}
 }
 .boxer-lock {
   overflow: hidden !important;
