@@ -113,26 +113,26 @@
             <div class="row" id="homepage-solutions-container">
             <div class="col-6">
                <div class=" homepage-solutions-box" data-sr="wait 0.2s, ease-in-out 100px">
-                     <span class="subhead-headline no-margin"><a href="platform-participation.html" class="boxer" data-boxer-width="700" data-boxer-height="600" data-gallery="platforms">A Strong Union through Participation and Democracy<br><span class="sm-button">learn more</span></a></span>
+                     <span class="subhead-headline no-margin"><a href="platform-participation.html" class="boxer" data-boxer-width="700">A Strong Union through Participation and Democracy<br><span class="sm-button">learn more</span></a></span>
                </div>
                <div class=" homepage-solutions-box" data-sr="wait 0.2s, ease-in-out 100px">
-                     <span class="subhead-headline no-margin"><a href="#contract" class="boxer" data-boxer-width="700" data-boxer-height="600" data-gallery="platforms">Contract Enforcement<br><span class="sm-button">learn more</span></a></span>
+                     <span class="subhead-headline no-margin"><a href="platform-contract.html" class="boxer" data-boxer-width="700"  data-gallery="platforms">Contract Enforcement<br><span class="sm-button">learn more</span></a></span>
                </div>
                <div class=" homepage-solutions-box" data-sr="wait 0.2s, ease-in-out 100px">
-                     <span class="subhead-headline no-margin"><a href="#negotiations" class="boxer" data-boxer-width="700" data-boxer-height="600" data-gallery="platforms">Preparation for Future Negotiations<br><span class="sm-button">learn more</span></a></span>
+                     <span class="subhead-headline no-margin"><a href="platform-prep.html" class="boxer" data-boxer-width="700" data-gallery="platforms">Preparation for Future Negotiations<br><span class="sm-button">learn more</span></a></span>
                </div>
             </div>
-            <div class="col-6">
-               <div class=" homepage-solutions-box " data-sr="wait 0.2s, ease-in-out 100px">
-                     <span class="subhead-headline no-margin"><a href="#voice" class="boxer" data-boxer-width="700" data-boxer-height="600" data-gallery="platforms">A Voice for Graduate Workers in the State Political Arena<br><span class="sm-button">learn more</span></a></span>
-               </div>
-               <div class=" homepage-solutions-box " data-sr="wait 0.2s, ease-in-out 100px">
-                     <span class="subhead-headline no-margin"><a href="#justice" class="boxer" data-boxer-width="700" data-boxer-height="600" data-gallery="platforms">Social Justice Unionism<br><span class="sm-button">learn more</span></a></span>
-               </div>
-               <div class=" homepage-solutions-box " data-sr="wait 0.2s, ease-in-out 100px">
-                     <span class="subhead-headline no-margin"><a href="#community" class="boxer" data-boxer-width="700" data-boxer-height="600" data-gallery="platforms">Building Community and Solidarity at UConn<br><span class="sm-button">learn more</span></a></span>
-               </div>
-            </div>
+						<div class="col-6">
+							<div class=" homepage-solutions-box " data-sr="wait 0.2s, ease-in-out 100px">
+							<span class="subhead-headline no-margin"><a href="platform-voice.html" class="boxer" data-boxer-width="700"  data-gallery="platforms">A Voice for Graduate Workers in the State Political Arena<br><span class="sm-button">learn more</span></a></span>
+							</div>
+							<div class=" homepage-solutions-box " data-sr="wait 0.2s, ease-in-out 100px">
+							<span class="subhead-headline no-margin"><a href="platform-justice.html" class="boxer" data-boxer-width="700"  data-gallery="platforms">Social Justice Unionism<br><span class="sm-button">learn more</span></a></span>
+							</div>
+							<div class=" homepage-solutions-box " data-sr="wait 0.2s, ease-in-out 100px">
+							<span class="subhead-headline no-margin"><a href="platform-community.html" class="boxer" data-boxer-width="700"  data-gallery="platforms">Building Community and Solidarity at UConn<br><span class="sm-button">learn more</span></a></span>
+							</div>
+						</div>
              </div>
          </div>
 
@@ -154,8 +154,8 @@
          <div class="col-4">
          <img src='images/bio-vachon.jpg' alt="Todd Vachon" />
             <p><h3>Todd Vachon</h3><br>
-            <a href='mailto:Bill@HighestImpact.com'>todd.vachon@uconn.edu</a><br>
-            860-000-0000<br>
+            <a href='mailto:toddevachon@gmail.com'>toddevachon@gmail.com</a><br>
+            860-486-3105<br>
             <a href="http://sociology.uconn.edu/wp-content/uploads/sites/859/2014/10/Vachon_CV_7.15.pdf" target="_blank" class="button">Resume</a></p>
          </div>
          <div class="col-8">
@@ -188,54 +188,6 @@
 
 
 
-<div id="search" style="display: none;">
-	<div class="inline_content">
-<h2>A Strong Union through Participation and Democracy</h2>
-<p>The culture of our union thus far has been one of active member participation and I will do all that I can to ensure that we stay strong by continuing this tradition. This can be achieved through the formation of an effective steward system; through regular two-way communication between members, stewards, and leaders; and by having numerous opportunities for GEU-UAW members to be involved in decision-making. High levels of member involvement are what allowed us to gain recognition for our union in record time and to make great gains in the negotiation of our first contract. In some regards a union is like a tool with which change can be forged, but it is up to all of us to come together, pitch in and set that tool to work because even the best tools will do little without the human hand to guide them. </p>
-<p>A union of active members that work together to overcome challenges in the workplace necessarily has a more robust democracy than a union in which leaders make decisions in a bubble and paid staffers “service” the contract. Having a highly organized, participatory union will provide greater access to information and opportunities to participate in decision-making, both of which make our collective voice stronger and more representative in our workplace. In short, democracy, participation, and workplace power go hand in hand.</p>
-	</div>
-</div>
-
-<div id="contract" style="display: none;">
-	<div class="inline_content">
-<h2>Contract Enforcement</h2>
-<p>A contract is only as good as its enforcement, which is why I pledge to work diligently with the other members of the executive board, the elected stewards, and each of you to protect our wins every day on the job. Our contract provides us with a clear grievance procedure for challenging contract violations. However, collective action and majority participation are often a faster and more effective means of protecting the rights of GAs. To best protect our contractual gains we will need to keep both sides of the sword sharp and hold the university accountable for any violations of the contract.
-</p>
-	</div>
-</div>
-
-<div id="negotiations" style="display: none;">
-	<div class="inline_content">
-<h2>Preparation for Future Negotiations</h2>
-<p>Our current contract expires in 2018, which in graduate school terms may seem distant, but in contract terms is just around the corner. To best prepare for future negotiations we will need to have a good record-keeping system of grievances, a steady stream of communication with all members about which issues are most important to them, and an active organizing drive each semester to inform incoming grads about our past struggles and the need for continued solidarity to remain strong for future negotiations.</p>
-<p>Some things we should look forward to fighting for are increased rights and protections for international students who face a unique set of challenges at UConn due to their visa status, lack of outside employment opportunities, and limited access to transportation. We should also fight for expansion of the childcare subsidy for GAs with families and for further reductions in student fees.  </p>
-	</div>
-</div>
-
-<div id="justice" style="display: none;">
-	<div class="inline_content">
-<h2>Social Justice Unionism</h2>
-<p>By coming together and organizing a union, we have gained a degree of power within the university and in society that none of us individually had prior to the formation of our union. With power comes great responsibility. The UAW has a strong tradition of standing with the least well off in our society and fighting for social changes that improve the collective quality of life for all. As a long time social activist, I will continue to fight for social justice as the President of Local 6950. I believe that we, as members of the broader labor movement,  have an obligation to stand up for not just the interests of our members, but to work with other groups on addressing issues that affect all working people and in particular the least well-off or most vulnerable among us. Some ongoing campaigns with which we could find common ground include the anti-sexual assault movement on campus, the fight for 15 movement, and the #blacklivesmatter movement, to name just a few.   </p>
-	</div>
-</div>
-
-<div id="voice" style="display: none;">
-	<div class="inline_content">
-<h2>A Voice for Graduate Workers in the State political Arena</h2>
-<p>As public employees at a public university our work lives are often affected by the decisions of state lawmakers and other elected officials. The nature of this relationship makes politics a necessary part of what we do. Whether it is issues pertaining directly to graduate employees or issues that impact UConn in general, we need to be involved in the legislative process pro-actively and not just reactively (as the university administration has often operated in the past). We can gain a strong voice in the state political arena through our voluntary individual contributions to VCAP and our collective participation in the UAW Community Action Program—a program that directly benefitted us during our union recognition campaign in 2014. Some issues we might consider fighting for include increased funding for the university, expansion of the CT Next Generation fellowship, and continued commitment to making UConn a top research and teaching institution.
-</p>
-	</div>
-</div>
-
-<div id="community" style="display: none;">
-	<div class="inline_content">
-<h2>Building Community and Solidarity at UConn</h2>
-<p>The experience of organizing our union has created a sense of solidarity among GAs from across departments that had not existed before. The experience allowed for us to break out of our individual department bubbles, talk to one another, and become friends with folks from other departments we might have never visited before. To continue the growth of this new-found solidarity and sense of community, I propose that the union should host a series of social gatherings, such as an annual Labor Day BBQ, an All-star softball game, and a regular happy hour or bowling night. These non-work related activities, in addition to participation in workplace actions and regular discussions of workplace issues, can further enhance the quality of life for all graduates.</p>
-<p>
-Further, our recent contract campaign and significant gains have served as an example for other groups of workers and have inspired many. In addition to building solidarity within our own union, I will actively reach out to leaders and activists within the other unions on campus and build bridges between all workers on campus and in the broader community.</p>
-	</div>
-</div>
-      
 <noscript>
    <div class='blue-box'>For the best experience, please enable javascript.</div>
 </noscript>
