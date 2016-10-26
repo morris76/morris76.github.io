@@ -1,0 +1,558 @@
+<!doctype html>
+<!--[if lt IE 8]> <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>Make it. Here. - CSCU</title>
+	<meta name="description" content="">
+	<meta name="author" content="Connecticut Board of Regents for Higher Education">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+   <!--<script src="/files/scripts/modernizr-2.0.6.min.js"></script>-->
+   <script src="//use.typekit.net/tba7jib.js"></script>
+   <script>try{Typekit.load({ async: false });}catch(e){}</script>   
+   
+   <link rel="stylesheet" href="css/site.css?t=0512201602">
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+   
+   <!--[if lt IE 9]>   
+      <link rel="stylesheet" href="/files/css/site.css?t=04182016">
+      <script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+   <![endif]-->
+   
+   <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-25950326-1']);
+      _gaq.push(['_setSiteSpeedSampleRate', 100]);
+      _gaq.push(['_trackPageview']);
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      //ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';   
+      ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+   </script>
+
+	<style>
+	.department #banner {transition: background-color 0.5s ease 0s;border-color:#002a5c  /*#f37322 #0bb3b5, #D26752,#068d9d*/;}
+	.department #banner.fixed {background:#002a5c  /*#f37322*/;}
+
+	#banner.fixed.menu-visible #nav-wrap > li > a {color:#fff}
+	.department #banner.fixed #nav-wrap>li:hover>a {border-color: rgba(0,0,0,0.2);transition:none;}
+	.department #banner {height: 0;}
+	.department #banner.fixed {height: 0;}
+	#header-image {height:auto;box-shadow:0 0 4px rgba(0, 0, 0, 0.3);}
+	#header-image, #header-image::before {color: rgba(255, 255, 255, 0.9);}	
+	#header-image:before {background:rgba(191, 93, 28, 0.65);height:100%;}
+	
+	#header-image #header-image-content {display:block;height:auto;}	
+	#header-image #header-image-content > div {display:block;}	
+	#header-image #header-image-content h1 {font-weight:700;}	
+	#header-image #header-image-content h3 {font-size: 2em;line-height: 1.2em;margin:1em 0;}	
+	#header-image #header-image-content p {font-size: 115%;}
+	#header-image #header-image-content .emph {font-weight: 700;font-size:150%;color:#fff;}
+	a.button-header {background: #002a5c;border: 3px solid rgba(0, 0, 0, 0.2); border-radius: 5px; color: #fff; font-style: normal; font-weight: 700; line-height: 2.5em; position: relative; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);padding: 8px 16px;}  
+	a.button-header:hover {background: #00142C; border: 3px solid rgba(0, 0, 0, 0.2);}
+	a.button-header i {color: rgba(255,255,255, 0.4);text-shadow:none;}
+	a.button-header.orange {background: #f37322;}
+	
+	.arrow-area {position:relative;}
+	.arrow-area .arrow-wrap {left: 0; position: absolute;right: 0; top: -13em;}
+	.body-content-box {background:none;box-shadow:none;padding: 0em 3.5em;}
+	#careers {column-count:3;column-gap:2em;-moz-column-count:3;-moz-column-gap:2em;-webkit-column-count: 3;-webkit-column-gap: 2em;}
+	.grey-box {background:#fff;border:0;border-top:5px solid rgba(244, 117, 34, 0.99);box-shadow:0 0 4px rgba(0, 0, 0, 0.3);display:inline-block;}
+	.grey-box h4 {color:#002a5c;margin-top:0;}
+	.orange {color:#F4A977;}
+	.grey-box .button-blue {margin:5px 0;padding:0 10px;border-radius:4px; background: rgba(0, 42, 92, 0.1) none repeat scroll 0 0;
+    border: 1px solid rgba(0, 42, 92, 0.1);}
+	#sm {font-size:40%;position:relative;top:-30px;left: -10px;}
+	
+	
+		
+		@-webkit-keyframes bgAnimate {0%{background-size:100%}
+		    50%{background-size:120% 120%}
+		    10%{background-size:150% 150%}
+		}
+		@-moz-keyframes bgAnimate {0%{background-size:100%}
+		    50%{background-size:120% 120%}
+		    10%{background-size:150% 150%}
+		}
+		@keyframes bgAnimate {0%{background-size:100%}
+		    50%{background-size:120% 120%}
+		    10%{background-size:150% 150%}
+		}
+		
+	@media (min-width: 991px){
+		#header-image #header-image-content h1 {font-size:6em;}	
+		#header-image #header-image-content {padding:7em 6em 9em;}
+	
+	}
+	@media (max-width: 990px){
+		#careers {column-count:1;-moz-column-count:1;-webkit-column-count: 1;}
+		#careers .grey-box {display:block;}
+		.department #banner #banner-wrap {background:#002a5c;}
+		.body-content-box {padding:1em;}
+		#header-image #header-image-content {padding: 3em 1.5em;}
+		}
+	@media (max-width: 767px) {
+		#header-image #header-image-content {padding: 3em 1.5em;}
+		.subheader {font-size: 1.4em;}
+		.top-align-p {margin-top:0;}
+		a.button-header {display:block;}
+	}
+
+		#header-image {background-image:url("http://img.ctboardofregents.netdna-cdn.com/files/images/header-makeithere.jpg");background-color: #ed7221;}
+		.spinner {
+		  margin: 100px auto 0;
+		  width: 70px;
+		  text-align: center;
+		}
+		
+		.spinner > div {
+		  width: 18px;
+		  height: 18px;
+		  background-color: #333;
+		
+		  border-radius: 100%;
+		  display: inline-block;
+		  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+		  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+		}
+		
+		.spinner .bounce1 {
+		  -webkit-animation-delay: -0.32s;
+		  animation-delay: -0.32s;
+		}
+		
+		.spinner .bounce2 {
+		  -webkit-animation-delay: -0.16s;
+		  animation-delay: -0.16s;
+		}
+		
+		@-webkit-keyframes sk-bouncedelay {
+		  0%, 80%, 100% { -webkit-transform: scale(0) }
+		  40% { -webkit-transform: scale(1.0) }
+		}
+		
+		@keyframes sk-bouncedelay {
+		  0%, 80%, 100% { 
+		    -webkit-transform: scale(0);
+		    transform: scale(0);
+		  } 40% { 
+		    -webkit-transform: scale(1.0);
+		    transform: scale(1.0);
+		  }
+		}
+	</style>
+	
+</head>
+
+<body class="department ">
+<div id="skiptocontent"><a href="#body-wrapper">skip to main content</a></div>
+
+<!--
+  Begin Header
+  -->
+
+<header class="banner" id="banner" role="banner">
+   <div id="banner-wrap">
+   <h1><a href='/' class="logo-connscu">Connecticut State Colleges and Universities</a><a href="/" id="logo-connscu-abr">CSCU</a><a href='/makeithere' id="logo-dept">Advanced Manufacturing Technology Centers</a></h1>
+   </div>
+</header>
+
+<!--
+  End Header
+  -->
+
+<section id="body-wrapper" class="bg-pattern" >
+
+<section id="header-image" class="center">
+<section id="header-image-content" class="center">
+	<div class="row">
+		<div class="col-11 center center-text">
+			<h1 data-sr="opacity 0 move 50px">A Career in Less than 10 Months</h1>
+			<h3 data-sr="wait 0.7s opacity 0 enter bottom">98% Job placement after completing the program</h3>
+		</div>
+	</div>
+		
+	<div class="row">
+		
+		<div class="col-12">
+			
+		<div class="col-4 top-align-p grey-box right-0 m-col-12 m-right margin-small" data-sr='vFactor 0.1, wait 1s, opacity 0, enter bottom'>
+
+		<h4 class="">Get Started Now</h4>
+		<style>#body-header .body-content {
+		    padding: 0.5em;
+		}
+		.form-style label{display: inline-block;color: #888;width: 70px;}
+		
+		.form-style input[type="text"],
+		.form-style input[type="date"],
+		.form-style input[type="datetime"],
+		.form-style input[type="email"],
+		.form-style input[type="number"],
+		.form-style input[type="search"],
+		.form-style input[type="time"],
+		.form-style input[type="url"],
+		.form-style input[type="password"],
+		.form-style textarea,
+		.form-style select {display: inline-block;padding: 8px;border-radius: 6px;-webkit-border-radius: 6px;-moz-border-radius: 6px;border: 1px solid #CDCDCD;box-shadow:inset 0px 0px 4px rgba(211, 211, 211, 0.4);-moz-box-shadow:inset 0px 0px 4px rgba(211, 211, 211, 0.4);-webkit-box-shadow: inset 0px 0px 4px rgba(211, 211, 211, 0.4));margin:0.5em 0;width:70%;}
+		
+		.form-style .section{color: #c4634b;margin: 1em 0;font-size:1.45em;}
+		
+		.form-style .section span {background: #c4634b;padding: 2px 10px 2px 10px;position: absolute;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;font-size: 14px;margin-left: -44px;color: #fff;width: 35px;height: 35px;font-weight: 700;}
+		
+		.form-style input[type="button"],
+		.form-style input[type="submit"] {background: #f47522;border: 3px solid rgba(0, 0, 0, 0.17);border-radius: 5px;color: #ffffff;display: inline-block;font-size: 15px;font-weight: 700;margin: 12px 6px 12px 0;padding: 8px 20px;text-align: center;text-decoration: none;text-transform: uppercase;width: auto;}
+		
+		.form-style-10 input[type="button"]:hover,
+		.form-style-10 input[type="submit"]:hover {background: #d99a8a;color:#fff;}
+		
+		.req {color:#c4634b;}
+		
+		.form-style label.error {background:#d65130;border-radius: 3px;color: #fff;display: inline-block;padding: 0.2em;}
+		.form-style input.error[type="text"] {border: 1px solid #d65130;}
+		</style>
+		
+				<form action="http://www.ct.edu/?ACT=54" accept-charset="utf-8" id="makeithere-form" method="post"><div style="display:none">
+<input type="hidden" name="params_id" value="9577" />
+<input type="hidden" name="XID" value="699bbf77953827467c80e3cc3d049282b9d1e13c" />
+</div>
+				<div class="form-style">
+				
+				    <div class="inner-wrap">
+							<label class="">Name <span class="req">*</span></label>
+							<input id="name" name="full_name" type="text" maxlength="255" type="text" required /><br>
+					
+							<label class="">Email <span class="req">*</span></label>
+							<input id="email" name="email" type="text" maxlength="255" type="text" required /><br>
+					
+							<label class="">Phone <span class="req">*</span></label>
+							<input id="phone" name="phone" type="text" maxlength="255" type="text" required /><br>
+				    </div>
+				
+						<div class="button-section">
+							<input type="submit" value="Submit" name="Submit" />
+						</div>
+				
+				</div>
+				</form> 
+				<div id="makeithere-form-thanks" style="display:none;">Thank you for your interest in the Connecticut Community College Advanced Manufacuring Technology Centers</div>
+				
+				<div class="spinner" style="display:none;">
+					<div class="bounce1"></div>
+					<div class="bounce2"></div>
+					<div class="bounce3"></div>
+				</div>
+				
+		</div>
+			
+			
+		<p class="">Advanced Manufacturing is the opportunity for an innovative and creative career that is computerized, hands-on and high-tech. In less than 10 months, start a great career in: Aerospace, Submarines, Defense, Biotechnology, Power Systems, and other advanced manufacturing sectors.</p>
+		<a href='#careers' class="button button-header scrollto"><i class="fa fa-play-circle fa-fw"></i> &nbsp; View Careers</a> 
+		<a href='https://www.online.commnet.edu/pls/x/bzskwapp.P_Web_App_College_Selection' target="_blank" id="form" class="button button-header"><i class="fa fa-play-circle fa-fw"></i> &nbsp; Enroll Now</a>  <a href='https://www.youtube.com/embed/1I19BFYrapE' class="button button-header boxer orange"><i class="fa fa-play-circle fa-fw"></i> &nbsp; Watch the Video</a>
+		</div>
+		
+	</div>
+</section>
+</section>
+<section class="center-text arrow-area ">
+		<a class="arrow-wrap bounce scrollto m-hidden t-hidden" href="#content">
+			<i class="fa fa-angle-down arrow"></i>
+		</a>
+</section>
+<section>
+	<section class="body-content">
+		<div class="row">
+			<div class="col-10 center center-text">
+					<em class="subheader no-margin">Are you ready to make it in Connecticut? Here's how.</em>
+			</div>
+		</div>
+	</section>
+</section>
+
+
+
+<section>
+	
+<section class="body-content body-content-box" id="content">
+<div class="row">
+	<div class="col-12 center">
+
+<!----------------------
+  programs Tab ---
+------------------------>
+	<div id="careers">
+		
+			<div class="grey-box margin-medium" data-sr="vFactor 0.1, opacity 0, enter bottom">
+      <h4>Welding</h4>
+      <em>Welders use high heat in order to attach two metals together.  Welding will require a steady hand, physical strength, and an eye for quality and detail. You'll need to be able to read technical drawings, work with a partner or in a team, know safety codes and regulations.</em><br>
+      <strong>$43,210</strong>
+      </div>
+      
+      <div class="grey-box margin-medium" data-sr="vFactor 0.1, opacity 0, enter bottom">
+      <h4>Lean Manufacturing</h4>
+      <em>Lean manufacturing is the focus on eliminating waste from the manufacturing processes, which adds value for the customer and helps the environment. Working with CAD software, you'll work with engineers, designers, and supply chain logisticians, coming up with new processes that meet customer standards. </em><br>
+      <strong>$74,260</strong>
+      </div>
+      
+      <div class="grey-box margin-medium" data-sr="vFactor 0.1, opacity 0, enter bottom">
+      <h4>Supply Chain</h4>
+      <em>Supply chain logisticians analyze data to improve the way the company functions. You'll look at market forecasts and trends to make sure the company is selling the right product at the right time, and work with the marketing department to find the best target market. Additionally, you'll analyse costs and profits related to each product and advise on saving money.</em><br>
+      <strong>$59,620</strong>
+      </div>
+      
+      <div class="grey-box margin-medium" data-sr="vFactor 0.1, opacity 0, enter bottom">
+      <h4>Precision Sheet Metal Fabrication</h4>
+      <em>Sheet Metal Mechanic performs high precision fabrication duties, including: cutting, forming, surface finishing and assembly of raw sheet metals. They use calibrated measurement devices during fabrication tasks, such as CNC Punches, CNC Press Brakes, shears, notchers, drills, and various types of hardware insertion equipment.</em><br>
+      <strong>$38,158</strong>
+      </div>
+      
+      <div class="grey-box margin-medium" data-sr="vFactor 0.1, opacity 0, enter bottom">
+      <h4>Project Management</h4>
+      <em>Project managers ensure customer voices are heard when engineers and designers are crafting ideas and prototypes, and keep everyone on schedule and budget. You'll work out conflicts and know each employees' strengths and weaknesses to delegate tasks efficiently. Your job will involve reading and writing progress reports and making changes as necessary.</em><br>
+      <strong>$64,585</strong>
+      </div>
+      
+      <div class="grey-box margin-medium" data-sr="vFactor 0.1, opacity 0, enter bottom">
+      <h4>Mechatronics</h4>
+      <em>Troubleshoot, service and fix the computerized systems and robotic devices to reduce human interaction, such as robotic assembly devices and computer-controlled building air-conditioning systems. These machines and systems are often found within industrial and manufacturing plants, such as food processing facilities.</em><br>
+      <strong>$59,561</strong>
+      </div>
+      
+      <div class="grey-box margin-medium" data-sr="vFactor 0.1, opacity 0, enter bottom">
+      <h4>Quality Inspection - Metrology</h4>
+      <em>As a QA specialist you will review, evaluate, and recommend changes to product or processes in order to have the best product or process available. You'll ensure the end result meets or exceeds the desired outcomes.</em><br>
+      <strong>$43,158</strong>
+      </div>
+      
+      <div class="grey-box margin-medium" data-sr="vFactor 0.1, opacity 0, enter bottom">
+      <h4>CNC Operator</h4>
+      <em>CNC machinists work with computer-numerical controlled (CNC) machines, or machines directed by a computer program. You'll focus on the operation and maintenance of the machine, from starting it to unloading the finished product. You'll be required to read and understand machine data and mechanics in order to adjust and fix it as necessary.</em><br>
+      <strong>$40,638</strong>
+      </div>
+      
+      <div class="grey-box margin-medium" data-sr="vFactor 0.1, opacity 0, enter bottom">
+      <h4>Electro-Mechanical</h4>
+      <em>Electromechanical and industrial engineering technicians will work with engineers, machinists, designers, and drafters to design products and create manufacturing systems that meet customer demands. You'll troubleshoot any issues on the production line and perform the right repairs, making sure that every step of the manufacturing system runs smoothly and efficiently.</em><br>
+      <strong>$53,349</strong>
+      </div>
+      
+      <div class="grey-box margin-medium" data-sr="vFactor 0.1, opacity 0, enter bottom">
+      <h4>CAD/CAM Programming</h4>
+      <em>Working with CAD/CAM software, you'll write programs that are tailored to specific projects and products, run tests, and use the results to improve the manufacturing systems.</em><br>
+      <strong>$47,214</strong>
+      </div>
+      
+      <div class="grey-box margin-medium" data-sr="vFactor 0.1, opacity 0, enter bottom">
+      <h4>Tool & Die</h4>
+      <em>Tool and die machines are usually computer-numerically controlled (CNC), so you'll need to be proficient in various software programs and  computer skills to set up, adjust, and operate machines. These tasks  means a high level of strength and fitness may be required. You'll inspect the tools or dies being made and ensure every piece is perfect.</em><br>
+      <strong>$55,102</strong>
+      </div>
+      
+      <div class="grey-box margin-medium" data-sr="vFactor 0.1, opacity 0, enter bottom">
+      <h4>Machining</h4>
+      <em>Machine operators work as part of the assembly line in a production facility. You'll be in charge of a basic, manually-controlled manufacturing machine to start, stop, and monitor the machine's operation, making sure there are no defects or issues in the products. You may be required to make small adjustments to the machine, or perform minor repairs.</em><br>
+      <strong>Avg Annual Salary: $42,110</strong>
+			</div>
+		
+
+   
+	</div>
+
+	</div>
+</div>
+</section>
+
+
+</section>
+</section>
+
+<footer>
+<div class="footer-content">
+   <div class="row">
+      <div class='col-3 t-col-4 center-text dark-grey-box margin-small'>
+         <a href='/'><img src='http://www.ct.edu/files/images/logo-cscu-website4.png' / alt="CSCU Logo" title="CSCU Homepage" style="max-width: 190px;" class=""></a>
+         <ul id="footer-contact">
+            <li><a href="/about/system-office#contact">Contact</a></li>
+            <li><a href="/about/system-office#directions">Directions</a></li>
+            <li>860-723-0000</li>  
+         </ul>
+         <div class=""><a href="/about/system-office#directions">39 Woodland Street<br>Hartford, CT 06105</a></div>
+         <div class="">&copy;2016  </div>
+      </div>
+      
+   <div class="col-9 t-col-8">
+      
+      <div class="row">
+         
+            <div class="m-row">
+            <div class="col-4 m-col-7 margin-medium">
+               <h3>CSCU Resources</h3>
+               <ul>
+                    <li><a href='http://my.commnet.edu/' target="_blank">myCommNet</a></li>
+                    <li><a href='/365' target="_blank">Office 365</a></li>
+                    <li><a href='http://www.ct.edu/netid' target="_blank">NetID</a></li>
+                    <li><a href='http://commons.ct.edu/' target="_blank">CSCU Commons</a></li>
+                    <li><a href='https://calendar.ct.edu' target="_blank">Training Calendar</a></li>
+                    <li><a href='/hr/employment'>Employment</a></li>    
+                    <li><a href='/directory'>Directories</a></li>    
+                    <li><a href='hr/policies#bor'>BOR Policies</a></li>    
+               </ul>
+            </div>
+            
+            <div class='col-4 m-col-5 margin-medium'>
+               <h3>Social Media</h3>
+               <ul>  
+                  <li><a href='http://www.twitter.com/connscu' target="_new"><i class="fa  fa-twitter  fa-inverse"></i> Twitter</a></li>
+                  <li><a href='http://www.flickr.com/photos/wcsu_upd/' target="_new"><i class="fa  fa-flickr  fa-inverse"></i> Flickr</a></li>
+                  <li><a href='http://www.linkedin.com/in/connscu' target="_new"><i class="fa  fa-linkedin-square  fa-inverse"></i> LinkedIn</a></li>
+                  <li><a href='http://www.youtube.com/connscu' target="_new"><i class="fa  fa-youtube  fa-inverse"></i> YouTube</a></li>
+                  <li><a href='/newsroom/connect'><i class="fa  fa-share-alt  fa-inverse"></i> CSCU Connect</a></li>
+               </ul>
+            </div>
+          </div>
+          
+            <div class='col-4 '>
+               <h3>State of CT</h3>
+               <ul>
+                  <li><a href="http://www.ct.gov/" target="_blank">State of Connecticut</a></li>
+                  <li><a href="http://www.governor.ct.gov/malloy/site/default.asp" target="_blank">Gov. Dannel P. Malloy</a></li>
+                  <li><a href="http://www.ctohe.org/" target="_blank">Office of Higher Education</a></li>
+                  <li><a href="http://www.sde.ct.gov" target="_blank">Dept. of Education</a></li>
+                  <li><a href="http://www.ctdol.state.ct.us/" target="_blank">Dept. of Labor</a></li>
+                  <li><a href="http://www.ct.gov/dph" target="_blank">Dept. of Public Health</a></li>
+                  <li><a href="http://www.ct.gov/ecd/site/default.asp" target="_blank">Dept. of Econ. &amp; Community Dev.</a></li>
+               </ul>
+            </div>
+            
+      </div>
+      
+      
+   </div>
+</div>
+</div>
+</footer>
+
+<noscript>For the best experience, please enable javascript.</noscript>
+<div id="dropdown-system-office" class="dropdown dropdown-tip">
+    <h4 class="subhead-header color-red subhead-line no-padding">About</h4>
+    <ul class="dropdown-menu">
+      <li><a href='/about/system-office#contact'>Contact</a></li>
+      <li><a href='/directory#system'>Directory</a></li>
+      <li><a href='/about/system-office#directions'>Directions</a></li>
+      <li><a href='/hr/employment'>Employment</a></li>
+      <li><a href='/finance#bids' class="list-last">Bid Opportunities</a></li>
+   </ul>
+    <h4 class="subhead-header color-red subhead-line no-padding">Departments</h4>
+    <ul class="dropdown-menu">
+      <li><a href='/finance'>Finance</a></li>
+      <li><a href='/newsroom/legislative'>Government Relations</a></li>
+      <li><a href='/hr'>Human Resources</a></li>
+      <li><a href='/it'>Information Technology</a></li>
+      <li><a href='/audit'>Internal Audit</a></li>
+      <li><a href="/osp">Sponsored Programs</a></li>
+      <li><a href='/orse'>Research & System Effectiveness</a></li>
+      <li><a href='/newsroom'>Public Affairs & Marketing</a></li>
+   </ul>
+</div>
+<div id="dropdown-online-tools" class="dropdown dropdown-tip dropdown-anchor-right">
+    <ul class="dropdown-menu">
+      <li><a href='http://my.commnet.edu/' target="_blank"><i class="fa fa-fw fa-sign-in header-arrow"></i> myCommNet</a></li>
+      <li><a href='http://commons.ct.edu/' target="_blank"><i class="fa fa-fw fa-group header-arrow"></i> ConnSCU Commons</a></li>
+      <li><a href='/365' target="_blank"><i class="fa fa-fw fa-envelope header-arrow"></i> Office 365</a></li>
+      <li><a href='http://www.ct.edu/netid' target="_blank"><i class="fa fa-fw fa-user header-arrow"></i> NetID</a></li>
+      <li><a href='https://calendar.ct.edu' target="_blank"><i class="fa fa-fw fa-calendar-o header-arrow"></i> Training Calendar</a></li>
+   </ul>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/min/global.min.js?t=0509201601"></script>
+<!--<script type="text/javascript" src="http://img.ctboardofregents.netdna-cdn.com/files/scripts/scrollReveal.min.js"></script>-->
+
+   <!--[if lt IE 9]>
+   <script type="text/javascript" src="/files/scripts/respond.min.js"></script>
+   <![endif]-->
+
+<script type="text/javascript" src="http://img.ctboardofregents.netdna-cdn.com/files/scripts/scrollReveal.min.js"></script>
+<script type="text/javascript" src="http://img.ctboardofregents.netdna-cdn.com/files/scripts/footable.all.min.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.js"></script>
+<script type="text/javascript">
+	
+window.sr = new scrollReveal({mobile:true});
+
+$(document).ready(function(){
+   
+		//window.setTimeout(function () {$('#form').trigger('click');}, 5000);
+    // bind form using ajaxForm 
+    $('#makeithere-form').ajaxForm({ 
+        // target identifies the element(s) to update with the server response 
+        //target: '#makeithere-form-thanks', 
+				beforeSubmit:function() { 
+        $('#makeithere-form').hide();
+        $('.spinner').fadeIn('slow');
+        } ,
+        // success identifies the function to invoke when the server response 
+        // has been received; here we apply a fade-in effect to the new content 
+        success: function() { 
+        //$('#makeithere-form').hide();
+        $('.spinner').hide();
+        $('#makeithere-form-thanks').fadeIn('slow');
+        } 
+    }); 
+
+		$('.footable').footable();
+
+   //fade arrow on scroll
+   $(window).scroll( function(){
+      var topWindow = $(window).scrollTop();
+      var topWindow = topWindow * 2;
+      var windowHeight = $(window).height();
+      var position = topWindow / windowHeight;
+      position = 1 - position;
+      $('.arrow-wrap').css('opacity', position);
+   });
+
+   //reload map & responsive tables if starting from another tab
+   $('#tab-container').bind('easytabs:after', function(e) {
+      google.maps.event.trigger(map, 'resize');
+      myLatlng = new google.maps.LatLng(41.490127,-72.701895),
+      map.setCenter(myLatlng);  
+         google.maps.event.addListener(infowindow, 'domready', function () {$('#tab-container').easytabs();});
+
+      $('.footable').trigger('footable_resize');
+   });
+
+});
+
+
+</script>
+<script>
+$(document).ready(function(){ 
+	if($(window).width() > 990){
+		$(window).scroll(function() {
+			var scrolldept = $(window).scrollTop()-90;
+			if (scrolldept >= 1)  {
+				$(".department #banner").addClass("fixed");$(".logo-connscu").addClass("morph");
+			} else {
+				$(".department #banner").removeClass("fixed");$(".logo-connscu").removeClass("morph");}
+			});
+	};
+	$(".scrollto").click(function (event) {
+			event.preventDefault();
+			var dest = 0;
+			if ($(this.hash).offset().top > $(document).height() - $(window).height()) {
+				dest = $(document).height() - $(window).height()-100;
+			} else {
+				dest = $(this.hash).offset().top -100;
+			}
+			$('html,body').animate({scrollTop: dest}, 1000, 'swing');
+			hashTagActive = this.hash;
+		});
+});
+</script>
+</body>
+</html>

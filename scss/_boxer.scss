@@ -99,23 +99,28 @@
           transition: opacity 0.25s linear;
 }
 #boxer .boxer-close {
-  width: 40px;
-  height: 40px;
+  //width: 80px;
+  //height: 40px;
   position: absolute;
-  top: -0px;
-  right: -0px;
+  top: -20px;
+  right: -25px;
   z-index: 105;
-  background: #e1e1e1;
-  border-radius: 0 3px 0 0;
+  background: #E1E1E1;
+  border-radius: 3px;
   cursor: pointer;
   display: block;
   overflow: hidden;
   padding: 0;
-  text-indent: 200%;
+  //text-indent: 200%;
   white-space: nowrap;
+  padding: 5px 10px;
+  font-weight: 700;
+  text-transform:uppercase;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  border:3px solid #ffffff;
 }
-#boxer .boxer-close:before {
-  position: absolute;
+#boxer .boxer-close:after {
+  //position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
@@ -123,12 +128,13 @@
   color: #333333;
   content: "";
   font-family:fontawesome;
-  display: block;
+  display: inline-block;
   font-size: 1.2em;
   line-height: 40px;
   margin: auto;
   text-align: center;
   text-indent: 0;
+  padding: 0 0 0 5px;
   -webkit-transition: color 0.15s linear;
           transition: color 0.15s linear;
 }
@@ -333,35 +339,28 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: #111111;
+  background: rgba(0, 0, 0, 0.8);
   border-radius: 0;
-  padding: 40px 0 0;
+  padding: 30px;
 }
-#boxer.mobile .inline_content {padding:1em;color:#fff;}
+#boxer.mobile .inline_content {
+	padding:1em;
+	//color:#fff;
+	}
 #boxer.mobile .boxer-close,
 #boxer.mobile .boxer-close:hover {
-  height: 40px;
-  width: 40px;
-  top: 0;
-  right: 0;
-  background: #111111;
-  border-radius: 0;
-
-
+	padding: 10px;
+  right: 10px;
   text-indent: 0;
-  overflow: visible;
-  color: white;
-  padding: 7px 4em 0 6em;
-  font-size: 16px;
+  top: 10px;
+  width: auto;
 
 
 }
 #boxer.mobile .boxer-close:before,
+#boxer.mobile .boxer-close:after,
 #boxer.mobile .boxer-close:hover:before {
-  color: #cccccc;
-	font-size: 16px;
-  font-weight: 700;
-  line-height: 40px;
+  line-height: 20px;
 }
 #boxer.mobile .boxer-loading:before {
   border-color: rgba(153, 153, 153, 0.25);
@@ -370,15 +369,18 @@
   border-top-color: #999999;
 }
 #boxer.mobile .boxer-container {
-  background: #111111;
+  //background: #111111;
+  background: #fff;
 }
 #boxer.mobile .boxer-content {
-  background-color: #111111;
+  //background-color: #111111;
+  background-color: #fff;
 }
 #boxer.mobile .boxer-control {
   width: 50px;
   height: 100%;
-  background: #111111;
+  //background: #111111;
+  background: #fff;
   border-radius: 0;
   box-shadow: none;
   opacity: 1;
